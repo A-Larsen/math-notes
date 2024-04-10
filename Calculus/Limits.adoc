@@ -13,3 +13,6 @@
 \forall\epsilon\gt0\ \ \exists\delta\gt\0\ \ s.t. \forall\epsilon\mathbb{R}
 \ with\ 0 \lt\ |x - a|\ \lt \ \delta,\ we\ have\ |f(x) - L|\ \lt\ \epsilon
 ++++
+
+[.center]
+image::epsilon-delta-definition-of-a-limit.png[]
