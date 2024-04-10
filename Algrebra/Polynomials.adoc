@@ -17,6 +17,11 @@ P(x) = a_{n}X^n + a_{n-1}X^(n-1) + a_{n-2}X^(n-2) + ... + a_{1}X + a_{0}
 [.item]#stem:[x^n,x^(n-1),x^(n-2)]#  and constant term respectively and it
 should belong to real number (stem:[\exists\mathbb{R}])
 
+== Binomials
+[stem]
+++++
+ax^m+bx^n
+++++
 
 == Factoring Trinomials
 === Leading Coeficient Of One
