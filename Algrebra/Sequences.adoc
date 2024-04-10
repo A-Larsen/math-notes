@@ -15,12 +15,12 @@ The below has a common difference of 4:
 ++++
 3,7,11,15,19,23,27
 ++++
-=== Find sqecific index
+=== Find Sqecific Index
 [stem]
 ++++
-a_{n} = a_{1}(r)^(n-1)
+a_{n} = a_{1}+(n-1)d
 ++++
-=== Partial Sum
+=== Find Partial Sum
 [stem]
 ++++
 Sn = (\frac{a_{1}+a_{n}}{2})n
@@ -34,6 +34,15 @@ The below has a common ratio of 2:
 ++++
 3,6,12,24,48,96,192
 ++++
+=== Find Sqecific Index
+[stem]
+++++
+a_{n} = a_{1}(r)^(n-1)
+++++
 
-
+=== Find Partial Sum
+[stem]
+++++
+Sn = \frac{a_{1}(1-r^n)}{1-r}
+++++
 
