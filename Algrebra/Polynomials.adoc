@@ -37,6 +37,9 @@ m:: slope
 b:: y-intercept
 
 === Line Point-Slope https://www.youtube.com/watch?v=yoHs1h5qtuQ[Point-Slope Form]
+I you have one point of the line and a slope you can figure out more points on
+the line with this formula
+
 [stem]
 ++++
 y = y_{1} = m(x - x_{1})
