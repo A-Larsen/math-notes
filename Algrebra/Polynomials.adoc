@@ -19,13 +19,13 @@ should belong to real number (stem:[\exists\mathbb{R}])
 
 
 == Factoring Trinomials
-=== Leading Coeficient of 1
+=== Leading Coeficient Of One
 1. Find two numbers that when multiplied together equal the constant term
    but when added together equal the first degree term.
 
-2. Take the two numbers from step one and put it in a binomial in the form of
-   stem:[(x+a)(x+b)], where `a` is the first number number and `b` is the second
-   term
+2. Take the two numbers from step one and put it in the multiplication of two
+   binomials in the form of stem:[(x+a)(x+b)], where `a` is the first number
+   number and `b` is the second term
 
 Example:
 [stem]
@@ -34,3 +34,5 @@ x^2 + 5x + 6 = 0
 ++++
 
 answer:: stem:[(x+3)(x+2)]
+
+=== Leading Coeficient Other Than One
