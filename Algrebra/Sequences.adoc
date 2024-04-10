@@ -1,0 +1,39 @@
+= Algrebra | Sequences
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem:
+:toc: left
+:docinfodir: ..
+
+== Arithmetic Sequence
+Has a common difference.
+
+The below has a common difference of 4:
+[stem]
+++++
+3,7,11,15,19,23,27
+++++
+=== Find sqecific index
+[stem]
+++++
+a_{n} = a_{1}(r)^(n-1)
+++++
+=== Partial Sum
+[stem]
+++++
+Sn = (\frac{a_{1}+a_{n}}{2})n
+++++
+
+== Geometric Sequence
+Has a common ratio.
+
+The below has a common ratio of 2:
+[stem]
+++++
+3,6,12,24,48,96,192
+++++
+
+
+
