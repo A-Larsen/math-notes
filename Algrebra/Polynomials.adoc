@@ -36,15 +36,13 @@ y = mx + b
 m:: slope
 b:: y-intercept
 
-=== Line Point-Slope Form
+=== Line Point-Slope https://www.youtube.com/watch?v=yoHs1h5qtuQ[Point-Slope Form]
 [stem]
 ++++
 y = y_{1} = m(x - x_{1})
 ++++
 m:: slope
 stem:[x_{1},y_{1}]:: any pont on the line
-
-
 
 
 
