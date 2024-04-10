@@ -1,0 +1,36 @@
+= Algrebra | Polynomials
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem:
+:toc: left
+:docinfodir: ..
+
+== Standard Form of a Polynomial
+[stem]
+++++
+P(x) = a_{n}X^n + a_{n-1}X^(n-1) + a_{n-2}X^(n-2) + ... + a_{1}X + a_{0}
+++++
+
+[.item]#stem:[a_{n},a_{n-1},a_{n-2}]# are coefficients of 
+[.item]#stem:[x^n,x^(n-1),x^(n-2)]#  and constant term respectively and it
+should belong to real number (stem:[\exists\mathbb{R}])
+
+
+== Factoring Trinomials
+=== Leading Coeficient of 1
+1. Find two numbers that when multiplied together equal the constant term
+   but when added together equal the first degree term.
+
+2. Take the two numbers from step one and put it in a binomial in the form of
+   stem:[(x+a)(x+b)], where `a` is the first number number and `b` is the second
+   term
+
+Example:
+[stem]
+++++
+x^2 + 5x + 6 = 0
+++++
+
+answer:: stem:[(x+3)(x+2)]
