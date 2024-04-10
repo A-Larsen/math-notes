@@ -42,7 +42,7 @@ the line with this formula
 
 [stem]
 ++++
-y = y_{1} = m(x - x_{1})
+(y - y_{1}) = m(x - x_{1})
 ++++
 m:: slope
 stem:[x_{1},y_{1}]:: any pont on the line
