@@ -108,3 +108,16 @@ A^3 + B^3 = (A+B)(A^2-AB+B^2)
 ++++
 A^3 - B^3 = (A-B)(A^2+AB+B^2)
 ++++
+
+== Standard Form to Vertex Form
+1. Take the first degree term and take half of it squared added to both sides
+2. factor
+
+example:
+[stem]
+++++
+y = x^2 + 6x - 5
+++++
+
+1. stem:[y+3^2=x^2+6x+3^2-5]
+2. stem:[y + 9 = (x + 3)^2-5] -> -9 from both sides -> stem:[y=(x+3)^2-14]
