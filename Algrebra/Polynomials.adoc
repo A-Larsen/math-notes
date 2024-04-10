@@ -91,3 +91,11 @@ stem:[D\gt0]:: 2 real solutions, factorable if perfect square
 stem:[D=0]:: 1 real solution
 stem:[D<0]:: 2 imaginary solutions
 
+== Important Factoring
+
+Difference of Squares::
+[stem]
+++++
+a^2-b^2 = (a+b)(a-b)
+++++
+
