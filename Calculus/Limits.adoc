@@ -1,0 +1,15 @@
+= Calculus | Limits
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem:
+:toc: left
+:docinfodir: ..
+
+== Delta, Epsilon Definition of a Limit
+[stem]
+++++
+\forall\epsilon\gt0\ \ \exists\delta\gt\0\ \ s.t. \forall\epsilon\mathbb{R}
+\ with\ 0 \lt\ |x - a|\ \lt \ \delta,\ we\ have\ |f(x) - L|\ \lt\ \epsilon
+++++
