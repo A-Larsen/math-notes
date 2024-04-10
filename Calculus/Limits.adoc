@@ -15,4 +15,13 @@
 ++++
 
 [.center]
-image::epsilon-delta-definition-of-a-limit.png[]
+image::Epsilon-Delta-Definition-of-a-Limit.png[]
+
+== Intermediate Value Theorem
+Suppose stem:[f] is continuous on stem:[[a,b]], and stem:[N], a number b/t
+stem:[f(a)] and stem:[f(b)], where stem:[f(a)\ \ne\ f(b)], then there exists a
+number stem:[c] in stem:[(a,b)] s.t stem:[f(c) = N].
+
+[.center]
+image::Intermediate-Value-Theorem.png[]
+
