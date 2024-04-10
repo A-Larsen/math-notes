@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+shopt -s extglob
+
+rm -rf !(docinfo.*) $(find . -type f -regex '.*\.html')
