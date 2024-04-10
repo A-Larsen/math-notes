@@ -98,3 +98,13 @@ stem:[D<0]:: 2 imaginary solutions
 a^2-b^2 = (a+b)(a-b)
 ++++
 
+=== Factoring Perfact cubes
+[stem]
+++++
+A^3 + B^3 = (A+B)(A^2-AB+B^2)
+++++
+
+[stem]
+++++
+A^3 - B^3 = (A-B)(A^2+AB+B^2)
+++++
