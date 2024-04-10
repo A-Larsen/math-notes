@@ -18,13 +18,13 @@ P(x) = a_{n}X^n + a_{n-1}X^(n-1) + a_{n-2}X^(n-2) + ... + a_{1}X + a_{0}
 should belong to real number (stem:[\exists\mathbb{R}]).
 
 == Types of Polynomials
-Binomials::
+=== Binomials
 [stem]
 ++++
 ax^m+bx^n
 ++++
 
-Standard Form of Quadradic Equation::
+=== Standard Form of Quadradic Equation
 [stem]
 ++++
 ax^2 + bx + c
@@ -92,8 +92,7 @@ stem:[D=0]:: 1 real solution
 stem:[D<0]:: 2 imaginary solutions
 
 == Important Factoring
-
-Difference of Squares::
+=== Difference of Squares
 [stem]
 ++++
 a^2-b^2 = (a+b)(a-b)
