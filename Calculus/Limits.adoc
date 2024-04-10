@@ -25,3 +25,13 @@ number stem:[c] in stem:[(a,b)] s.t stem:[f(c) = N].
 [.center]
 image::Intermediate-Value-Theorem.png[]
 
+== Solving for Vertical Asymptotes
+[stem]
+++++
+f(x) = frac{x+4}{(x+4)(x-8)}
+++++
+
+* `-4` is removable
+* `8` is non-removable
+
+In this function there would be a hole at `-4`
