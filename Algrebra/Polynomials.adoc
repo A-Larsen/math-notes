@@ -18,17 +18,31 @@ P(x) = a_{n}X^n + a_{n-1}X^(n-1) + a_{n-2}X^(n-2) + ... + a_{1}X + a_{0}
 should belong to real number (stem:[\exists\mathbb{R}]).
 
 == Types of Polynomials
-=== Binomials
+=== Binomial
 [stem]
 ++++
 ax^m+bx^n
 ++++
-
 === Standard Form of Quadradic Equation
 [stem]
 ++++
 ax^2 + bx + c
 ++++
+=== Line Slope-Intercept Form
+[stem]
+++++
+y = mx + b 
+++++
+m:: slope
+b:: y-intercept
+
+=== Line Point-Slope Form
+[stem]
+++++
+y = y_{1} = m(x - x_{1})
+++++
+m:: slope
+
 
 == Factoring Trinomials
 === Leading Coeficient Of One
