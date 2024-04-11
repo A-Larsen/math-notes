@@ -7,6 +7,14 @@
 :toc: left
 :docinfodir: ..
 
+== Chord
+
+chord::
+    Line segment that connects two endpoints on a circle
+
+If a chord passes through the center of a circle its known as a diameter
+
+
 == Central Angle
 [stem]
 ++++
