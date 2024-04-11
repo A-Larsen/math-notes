@@ -17,3 +17,10 @@ mACB = 50^\circ
 
 [.center]
 image::Central-Angle.png[]
+
+== Inscribed Angle
+Half the measure of the arc
+
+[.center]
+image::Inscribed-Angle.png[]
+
