@@ -7,12 +7,23 @@
 :toc: left
 :docinfodir: ..
 
-== Chord
+== Definitions
 
-chord::
-    Line segment that connects two endpoints on a circle
+Chord::
+    Line segment that connects two endpoints on a circle. If a chord passes
+    through the center of a circle its known as a diameter
 
-If a chord passes through the center of a circle its known as a diameter
+Tangent Line::
+    Touches just one point at a curce.
+
+[.center]
+image::Tangent-Line.png[]
+
+Secant Line::
+    A line the passes through two points of a curve.
+
+[.center]
+image::Secant-Line.png[]
 
 
 == Central Angle
@@ -32,3 +43,4 @@ Half the measure of the arc
 [.center]
 image::Inscribed-Angle.png[]
 
+== Tangent-Chord Angle
