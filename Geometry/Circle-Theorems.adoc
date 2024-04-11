@@ -28,7 +28,7 @@ Radius::
 == Central Angle
 [stem]
 ++++
-\angle ACB = mACB
+m\angle ACB = mACB
 ++++
 // [stem]
 // ++++
@@ -41,12 +41,19 @@ Radius::
 image::Central-Angle.png[]
 
 == Inscribed Angle
-Half the measure of the arc
+[stem]
+++++
+m\angle ABC = \frac{1}{2}m \overarc{AC}
+++++
 
 [.center]
 image::Inscribed-Angle.png[]
 
 == Tangent-Chord Angle
+[stem]
+++++
+m\angle ABC = \frac{1}{2}(m\overarc{AB})
+++++
 
 [.center]
 image::Tangent-Chord-Angle.png[]
