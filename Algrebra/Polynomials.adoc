@@ -36,7 +36,7 @@ y = mx + b
 m:: slope
 b:: y-intercept
 
-=== Line Point-Slope https://www.youtube.com/watch?v=yoHs1h5qtuQ[Point-Slope Form]
+=== Line https://www.youtube.com/watch?v=yoHs1h5qtuQ[Point-Slope Form]
 I you have one point of the line and a slope you can figure out more points on
 the line with this formula
 
@@ -46,7 +46,6 @@ the line with this formula
 ++++
 m:: slope
 stem:[x_{1},y_{1}]:: any pont on the line
-
 
 
 == Factoring Trinomials
@@ -92,7 +91,7 @@ Example:
 
 4. stem:[2x(x-2) + 1(x - 2)] -> stem:[(x-2)(2x+1)]
 
-== Quadradic Formula
+== Quadradic Trinomial Formula
 [stem]
 ++++
 x = \frac{-b\pm\sqrt{b^2-4ac}}{2a}
