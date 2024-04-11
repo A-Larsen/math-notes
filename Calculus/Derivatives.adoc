@@ -65,6 +65,7 @@ f(x) = 3x^5 - 20x^3
 f'(x) = 15x^4 - 60x^2
 ++++
 
+[start=2]
 2. Set the derivative equal to zero and solve for x.
 
 [stem]
