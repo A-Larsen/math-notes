@@ -7,24 +7,23 @@
 :toc: left
 :docinfodir: ..
 
-== Definitions
+== Lines
 
-Chord::
+[.center]
+image::https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/CIRCLE_LINES-en.svg/1024px-CIRCLE_LINES-en.svg.png[]
+
+Chords::
     Line segment that connects two endpoints on a circle. If a chord passes
     through the center of a circle its known as a diameter
 
 Tangent Line::
     Touches just one point at a curce.
 
-[.center]
-image::Tangent-Line.png[]
-
 Secant Line::
     A line the passes through two points of a curve.
 
-[.center]
-image::Secant-Line.png[]
-
+Radius::
+    half of diameter
 
 == Central Angle
 [stem]
@@ -49,3 +48,6 @@ image::Inscribed-Angle.png[]
 y:: sine
 x:: cosine
 image::Unit-Circle.png[]
+
+== Links
+- https://www.desmos.com/geometry[Desmos Geometry]
