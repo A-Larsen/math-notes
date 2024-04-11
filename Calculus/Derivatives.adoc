@@ -44,3 +44,40 @@
 ++++
 \frac{d}{dx} [f(g(x))]  = f'(g(x)) * g'(x)
 ++++
+
+== Finding Critical numbers
+
+Find the critical numbers of
+[stem]
+++++
+f(x) = 3x^5 - 20x^3
+++++
+
+1. Find the first derivative of f using the power rule.
+
+[stem]
+++++
+f(x) = 3x^5 - 20x^3
+\
+f'(x) = 15x^4 - 60x^2
+++++
+
+2. Set the derivative equal to zero and solve for x.
+
+[stem]
+++++
+15x^4 - 60x^2 = 0
+\
+15x^2(x^2 - 4) = 0
+\
+15x^2(x+2)(x-2) = 0
+\
+15x^2 = 0\ \ or\ \ x + 2 = 0\ \ or\ \ x - 2 = 0
+\
+x = 0\ \ or\ \ x = -2\ \ or\ \ x = 2
+++++
+
+These three X-Values are crtical number of f.
+
+[.center]
+image::Finding-Critical-Numbers.png[]
