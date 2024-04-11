@@ -28,10 +28,14 @@ Radius::
 == Central Angle
 [stem]
 ++++
-\angle ACB = 50^\circ
-\
-mACB = 50^\circ
+\angle ACB = mACB
 ++++
+// [stem]
+// ++++
+// \angle ACB = 50^\circ
+// \
+// mACB = 50^\circ
+// ++++
 
 [.center]
 image::Central-Angle.png[]
