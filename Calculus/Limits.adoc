@@ -40,6 +40,6 @@ In this function there would be a hole at `-4`
 - stem:[\lim_{x \to 0^+}1/x = \infty]
 - stem:[\lim_{x \to 0^-}1/x = -\infty]
 - stem:[\lim_{x \to \infty}1/x = 0]
-- stem:[\lim_{x \to 0}\sinx/x = 0 = \lim_{x \to 0}x/\sinx = 1]
+- stem:[\lim_{x \to 0}\sinx/x = \lim_{x \to 0}x/\sinx = 1]
 - stem:[\lim_{x \to 0}\frac{cosx - 1}{x} = 0]
 - stem:[\lim_{x \to \infty}(1 + 1/x)^x = ]
