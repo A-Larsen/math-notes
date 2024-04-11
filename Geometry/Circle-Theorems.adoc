@@ -44,6 +44,9 @@ image::Inscribed-Angle.png[]
 
 == Tangent-Chord Angle
 
+[.center]
+image::Tangent-Chord-Angle.png[]
+
 == Unit Circle
 y:: sine
 x:: cosine
