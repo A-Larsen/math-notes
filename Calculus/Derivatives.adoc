@@ -85,3 +85,6 @@ These three X-Values are crtical number of f.
 
 [.center]
 image::Finding-Critical-Numbers.png[]
+
+== Links
+- https://www.derivative-calculator.net/[Derivative Calculator]
