@@ -50,3 +50,8 @@
 - stem:[\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}]
 
 == Other
+[.float-left]
+- stem:[sin(\theta) = 0 \leftrightarrow \theta = K\pi]
+
+[.float-left]
+- stem:[cos(\theta) = 0 \leftrightarrow \theta = \pi/2 + k\pi]
