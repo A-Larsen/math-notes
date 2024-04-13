@@ -1,0 +1,17 @@
+= Digital Signal Processing | Interpolation
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem:
+:toc: left
+:docinfodir: ..
+
+== C Function
+[source, c]
+----
+void interpolate(float *x, int y, int s, SDL_Point p1, SDL_Point p2) {
+    if ((p2.y - p1.y) == 0) return;
+    *x = s + (float)((p2.x - p1.x) * (y - p1.y)) / (float)(p2.y - p1.y);
+}
+----
