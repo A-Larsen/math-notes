@@ -30,12 +30,20 @@
 
 [.inline]
 - stem:[\sin(\theta) = \frac{1}{\csc(\theta)}]
+
+[.inline]
 - stem:[\cos(\theta) = \frac{1}{\sec(\theta)}]
+
+[.inline]
 - stem:[\tan(\theta) = \frac{1}{\cot(\theta)}]
 
 [.inline]
 - stem:[\csc(\theta) = \frac{1}{\sin(\theta)}]
+
+[.inline]
 - stem:[\sec(\theta) = \frac{1}{\cos(\theta)}]
+
+[.inline]
 - stem:[\cot(\theta) = \frac{1}{\tan(\theta)}]
 
 == Pythagoras Therom
