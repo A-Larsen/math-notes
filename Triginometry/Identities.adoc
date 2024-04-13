@@ -31,10 +31,14 @@
 - stem:[\sec(\theta) = \frac{1}{\cos(\theta)}]
 - stem:[\cot(\theta) = \frac{1}{\tan(\theta)}]
 
-
 [.float-none]
 == Pythagoras Therom
 - stem:[a^2 + b^2 = c^2]
 - stem:[\sin^2(\theta) + \cos^2(\theta) = 1]
 - stem:[1 + \cot^2(\theta) = \csc^2(\theta)]
 - stem:[1 + \tan^2(\theta) = \sec^2(\theta)]
+
+== Relation
+- stem:[\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}]
+
+== Other
