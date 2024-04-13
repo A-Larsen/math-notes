@@ -1,0 +1,14 @@
+= Algrebra | Lines
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem:
+:toc: left
+:docinfodir: ..
+
+== Perpendicular Lines
+Perpendicular lines have negative reciprocal slopes
+
+[.center]
+image::https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstudy.com%2Fcimages%2Fmultimages%2F16%2Fperpendicular_angles_3.jpg&f=1&nofb=1&ipt=763e18c638f62d89c070c0946bc3420597ada90d047a8e258c9cba0cad864253&ipo=images[]
