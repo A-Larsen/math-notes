@@ -15,56 +15,56 @@
 - stem:[\cos(\theta)] [.dull]#stem:[=]#  stem:[\frac{adj}{hyp}]
 
 [.inline]
-- stem:[\tan(\theta) = \frac{opp}{adj}]
+- stem:[\tan(\theta)] [.dull]#stem:[=]# stem:[\frac{opp}{adj}]
 
 [.inline]
-- stem:[\csc(\theta) = \frac{hyp}{opp}]
+- stem:[\csc(\theta)] [.dull]#stem:[=]# stem:[\frac{hyp}{opp}]
 
 [.inline]
-- stem:[\sec(\theta) = \frac{hyp}{adj}]
+- stem:[\sec(\theta)] [.dull]#stem:[=]# stem:[\frac{hyp}{adj}]
 
 [.inline]
-- stem:[\cot(\theta) = \frac{adj}{opp}]
+- stem:[\cot(\theta)] [.dull]#stem:[=]# stem:[\frac{adj}{opp}]
 
 == Reciprocal
 
 [.inline]
-- stem:[\sin(\theta) = \frac{1}{\csc(\theta)}]
+- stem:[\sin(\theta)] [.dull]#stem:[=]# stem:[\frac{1}{\csc(\theta)}]
 
 [.inline]
-- stem:[\cos(\theta) = \frac{1}{\sec(\theta)}]
+- stem:[\cos(\theta)] [.dull]#stem:[=]# stem:[\frac{1}{\sec(\theta)}]
 
 [.inline]
-- stem:[\tan(\theta) = \frac{1}{\cot(\theta)}]
+- stem:[\tan(\theta)] [.dull]#stem:[=]# stem:[\frac{1}{\cot(\theta)}]
 
 [.inline]
-- stem:[\csc(\theta) = \frac{1}{\sin(\theta)}]
+- stem:[\csc(\theta)] [.dull]#stem:[=]# stem:[\frac{1}{\sin(\theta)}]
 
 [.inline]
-- stem:[\sec(\theta) = \frac{1}{\cos(\theta)}]
+- stem:[\sec(\theta)] [.dull]#stem:[=]# stem:[\frac{1}{\cos(\theta)}]
 
 [.inline]
-- stem:[\cot(\theta) = \frac{1}{\tan(\theta)}]
+- stem:[\cot(\theta)] [.dull]#stem:[=]# stem:[\frac{1}{\tan(\theta)}]
 
 == Pythagoras Therom
 [.inline]
-- stem:[a^2 + b^2 = c^2]
+- stem:[a^2 + b^2] [.dull]#stem:[=]# stem:[c^2]
 
 [.inline]
-- stem:[\sin^2(\theta) + \cos^2(\theta) = 1]
+- stem:[\sin^2(\theta) + \cos^2(\theta)] [.dull]#stem:[=]# stem:[1]
 
 [.inline]
-- stem:[1 + \cot^2(\theta) = \csc^2(\theta)]
+- stem:[1 + \cot^2(\theta)] [.dull]#stem:[=]# stem:[\csc^2(\theta)]
 
 [.inline]
-- stem:[1 + \tan^2(\theta) = \sec^2(\theta)]
+- stem:[1 + \tan^2(\theta)] [.dull]#stem:[=]# stem:[\sec^2(\theta)]
 
 == Relation
 [.inline]
-- stem:[\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}]
+- stem:[\tan(\theta)] [.dull]#stem:[=]# stem:[\frac{\sin(\theta)}{\cos(\theta)}]
 
 [.inline]
-- stem:[\sin(2\theta) = 2\sin(\theta)\cos(\theta)]
+- stem:[\sin(2\theta)] [.dull]#stem:[=]# stem:[2\sin(\theta)\cos(\theta)]
 
 [.inline]
 - stem:[\cos(2\theta)]
@@ -77,7 +77,7 @@ stem:[1 - 2\sin^2(\theta)]
 
 == Circle
 [.inline]
-- stem:[sin(\theta) = 0 \leftrightarrow \theta = K\pi]
+- stem:[sin(\theta)] [.dull]#stem:[=]# stem:[0 \leftrightarrow \theta] [.dull]#stem:[=]# stem:[K\pi]
 
 [.inline]
-- stem:[cos(\theta) = 0 \leftrightarrow \theta = \pi/2 + k\pi]
+- stem:[cos(\theta)] [.dull]#stem:[=]# stem:[0 \leftrightarrow \theta] [.dull]#stem:[=]# stem:[\pi/2 + k\pi]
