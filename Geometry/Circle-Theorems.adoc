@@ -98,5 +98,9 @@ void drawCircle(SDL_Renderer *ren, float radius, SDL_Point center, uint32_t colo
 }
 ----
 
+== Rotation
+
+image:Rotation.png[]
+
 == Links
 - https://www.desmos.com/geometry[Desmos Geometry]
