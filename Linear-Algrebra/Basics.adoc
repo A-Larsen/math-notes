@@ -17,10 +17,14 @@ a_{2} \\
 a_{n}
 \end{array} \right]
 
+\cdot
+
 \left[ \begin{array}{c}
 b_{1} \\
 b_{2} \\
 \vdots \\
 b_{n}
 \end{array} \right]
+=
+a_{1} \cdot b_{2} + a_{2} \cdot b_{2} + \dots a_{n} \cdot b_{n}
 ++++
