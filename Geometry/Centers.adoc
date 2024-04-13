@@ -12,6 +12,8 @@
 [.center]
 image:Incenter.jpg[]
 
+Incenter should be the center of the inscribed circle
+
 == Centroid
 [.center]
 image:Centroid.png[]
