@@ -33,11 +33,19 @@
 
 [.float-none]
 == Pythagoras Therom
+[.float-left]
 - stem:[a^2 + b^2 = c^2]
+
+[.float-left]
 - stem:[\sin^2(\theta) + \cos^2(\theta) = 1]
+
+[.float-left]
 - stem:[1 + \cot^2(\theta) = \csc^2(\theta)]
+
+[.float-left]
 - stem:[1 + \tan^2(\theta) = \sec^2(\theta)]
 
+[.float-none]
 == Relation
 - stem:[\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}]
 
