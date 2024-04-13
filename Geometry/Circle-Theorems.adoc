@@ -63,5 +63,40 @@ y:: sine
 x:: cosine
 image::Unit-Circle.png[]
 
+== Standard Circle Formula
+
+[stem]
+++++
+(x -h)^2 + (y - k)^2 =r^2
+++++
+
+`h` and `k` are the x and y coordinates of the center of the circle.
+
+== Drawing a Circle in C
+
+Without Standard Circle Formula:
+[source, c]
+----
+void drawCircle(SDL_Renderer *ren, float radius, SDL_Point center, uint32_t color)
+{
+    
+    float x = 0;
+    float y = 0;
+    for(float i = 0; i < 2 * M_PI; i += 0.001f)
+    {
+        x = cos(2.0f * M_PI * i);
+        y = sin(2.0f * M_PI * i);
+        SDL_Rect point = {
+            (x * radius) + center.x, 
+            (y * radius) + center.y,
+            1, 
+            1
+        };
+        SDL_SetRenderDrawColor(ren, 0, 0, 0, 255);
+        SDL_RenderFillRect(ren, &point);
+    }
+}
+----
+
 == Links
 - https://www.desmos.com/geometry[Desmos Geometry]
