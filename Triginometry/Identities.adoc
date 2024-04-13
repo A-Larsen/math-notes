@@ -17,7 +17,16 @@
 - stem:[\sec(\theta) = \frac{hyp}{adj}]
 - stem:[\cot(\theta) = \frac{adj}{opp}]
 
-== Reciprocal Trig Ratios Relationship
-- stem:[\sin(\theta) = \frac{1}{csc(\theta)}]
-- stem:[\cos(\theta) = \frac{1}{sec(\theta)}]
-- stem:[\tan(\theta) = \frac{1}{cot(\theta)}]
+- stem:[\sin(\theta) = \frac{1}{\csc(\theta)}]
+- stem:[\cos(\theta) = \frac{1}{\sec(\theta)}]
+- stem:[\tan(\theta) = \frac{1}{\cot(\theta)}]
+
+- stem:[\csc(\theta) = \frac{1}{\sin(\theta)}]
+- stem:[\sec(\theta) = \frac{1}{\cos(\theta)}]
+- stem:[\cot(\theta) = \frac{1}{\tan(\theta)}]
+
+== Pythagoras Therom
+- stem:[a^2 + b^2 = c^2]
+- stem:[\sin^2(\theta) + \cos^2(\theta) = 1]
+- stem:[1 + \cot^2(\theta) = \csc^2(\theta)]
+- stem:[1 + \tan^2(\theta) = \sec^2(\theta)]
