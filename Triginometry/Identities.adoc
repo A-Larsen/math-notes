@@ -60,7 +60,11 @@
 - stem:[1 + \tan^2(\theta) = \sec^2(\theta)]
 
 == Relation
+[.inline]
 - stem:[\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}]
+
+[.inline]
+- stem:[\sin(2\theta) = 2\sin(\theta)\cos(\theta)]
 
 == Circle
 [.inline]
