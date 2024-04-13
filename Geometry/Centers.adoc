@@ -13,5 +13,8 @@
 image:Incenter.jpg[]
 
 == Centroid
+[.center]
+image:Centroid.png[]
+
 == Orthocenter
 == Circumcenter
