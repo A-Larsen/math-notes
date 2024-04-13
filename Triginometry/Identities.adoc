@@ -7,6 +7,16 @@
 :toc: left
 :docinfodir: ..
 
+== Even vs Odd Functions
+[%header, cols="1,1"]
+|===
+| Odd | Even
+| sin | cos
+| tan | sec
+| csc |
+| cot |
+|===
+
 == SOH CAH TOA
 [.inline]
 - stem:[\sin(\theta)] [.dull]#stem:[=]# stem:[\frac{opp}{hyp}]
