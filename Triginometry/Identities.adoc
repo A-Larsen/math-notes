@@ -79,10 +79,10 @@
 
 == Circle
 [.inline]
-- stem:[\sin(\theta)] [.dull]#stem:[=]# stem:[0 \leftrightarrow \theta] [.dull]#stem:[=]# stem:[K\pi]
+- stem:[\sin(\theta)] [.dull]#stem:[=]# stem:[0] [.dull]#stem:[\leftrightarrow]# stem:[\theta] [.dull]#stem:[=]# stem:[K\pi]
 
 [.inline]
-- stem:[\cos(\theta)] [.dull]#stem:[=]# stem:[0 \leftrightarrow \theta] [.dull]#stem:[=]# stem:[\pi/2 + k\pi]
+- stem:[\cos(\theta)] [.dull]#stem:[=]# stem:[0] [.dull]#stem:[\leftrightarrow]# stem:[\theta] [.dull]#stem:[=]# stem:[\pi/2 + k\pi]
 
 == Links
 - https://byjus.com/maths/trigonometric-identities/[Trigonometric Identities]
