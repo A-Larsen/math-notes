@@ -11,3 +11,8 @@
 - stem:[\sin(\theta) = \frac{opp}{hyp}]
 - stem:[\cos(\theta) = \frac{adj}{hyp}]
 - stem:[\tan(\theta) = \frac{opp}{adj}]
+
+== SOH CAH TOA relatives
+- stem:[\csc(\theta) = \frac{hyp}{opp}]
+- stem:[\sec(\theta) = \frac{hyp}{adj}]
+- stem:[\cot(\theta) = \frac{adj}{opp}]
