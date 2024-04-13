@@ -86,5 +86,14 @@ These three X-Values are crtical number of f.
 [.center]
 image::Finding-Critical-Numbers.png[]
 
+== Trigonometric Derivatives
+
+- stem:[\frac{d}{dx}\[\sinx\] = \cosx]
+- stem:[\frac{d}{dx}\[\cosx\] = -\sinx]
+- stem:[\frac{d}{dx}\[\tanx\] = \sec^2x]
+- stem:[\frac{d}{dx}\[\secx\] = \secx\tanx]
+- stem:[\frac{d}{dx}\[\cotx\] = -\csc^2x]
+- stem:[\frac{d}{dx}\[\cscx\] = -\cscx\cotx]
+
 == Links
 - https://www.derivative-calculator.net/[Derivative Calculator]
