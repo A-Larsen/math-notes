@@ -62,7 +62,7 @@
 == Relation
 - stem:[\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}]
 
-== Other
+== Circle
 [.inline]
 - stem:[sin(\theta) = 0 \leftrightarrow \theta = K\pi]
 
