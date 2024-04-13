@@ -10,6 +10,7 @@
 == Dot Product
 [stem]
 ++++
+\overrightarrow{a} \cdot \overrightarrow{b} \\
 \left[ \begin{array}{c}
 a_{1} \\
 a_{2} \\
