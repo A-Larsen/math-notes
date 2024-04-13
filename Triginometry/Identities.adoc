@@ -6,3 +6,8 @@
 :stem:
 :toc: left
 :docinfodir: ..
+
+== SOH CAH TOA
+- stem:[\sin(\theta) = \frac{opp}{hyp}]
+- stem:[\cos(\theta) = \frac{adj}{hyp}]
+- stem:[\tan(\theta) = \frac{opp}{adj}]
