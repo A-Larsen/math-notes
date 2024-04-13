@@ -759,6 +759,15 @@ details[open] > summary::before {
     color: var(--gruvbox-yellow)
 }
 
+.border {
+    padding: 4px;
+    border: 2px solid rgba(255, 0, 0, .3);
+}
+
+.dull {
+    opacity: 40%;
+}
+
 .inline {
     margin-right: 5%;
     display: inline-block;
@@ -794,14 +803,14 @@ details[open] > summary::before {
 <div class="ulist inline">
 <ul>
 <li>
-<p>\$\sin(\theta) = \frac{opp}{hyp}\$</p>
+<p>\$\sin(\theta)\$ <span class="dull">\$=\$</span> \$\frac{opp}{hyp}\$</p>
 </li>
 </ul>
 </div>
 <div class="ulist inline">
 <ul>
 <li>
-<p>\$\cos(\theta) = \frac{adj}{hyp}\$</p>
+<p>\$\cos(\theta)\$ <span class="dull">\$=\$</span>  \$\frac{adj}{hyp}\$</p>
 </li>
 </ul>
 </div>
@@ -932,6 +941,19 @@ details[open] > summary::before {
 </li>
 </ul>
 </div>
+<div class="ulist inline">
+<ul>
+<li>
+<p>\$\cos(2\theta)\$
+<span class="dull">\$=\$</span>
+\$\cos^2(\theta) - \sin^2(\theta)\$
+<span class="dull">\$=\$</span>
+\$2\cos^2(\theta) - 1\$
+<span class="dull">\$=\$</span>
+\$1 - 2\sin^2(\theta)\$</p>
+</li>
+</ul>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -956,7 +978,7 @@ details[open] > summary::before {
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-04-13 11:58:54 -0400
+Last updated 2024-04-13 12:11:56 -0400
 </div>
 </div>
 <script type="text/x-mathjax-config">

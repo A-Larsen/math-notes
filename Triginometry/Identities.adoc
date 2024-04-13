@@ -9,10 +9,10 @@
 
 == SOH CAH TOA
 [.inline]
-- stem:[\sin(\theta) = \frac{opp}{hyp}]
+- stem:[\sin(\theta)] [.dull]#stem:[=]# stem:[\frac{opp}{hyp}]
 
 [.inline]
-- stem:[\cos(\theta) = \frac{adj}{hyp}]
+- stem:[\cos(\theta)] [.dull]#stem:[=]#  stem:[\frac{adj}{hyp}]
 
 [.inline]
 - stem:[\tan(\theta) = \frac{opp}{adj}]
@@ -65,6 +65,15 @@
 
 [.inline]
 - stem:[\sin(2\theta) = 2\sin(\theta)\cos(\theta)]
+
+[.inline]
+- stem:[\cos(2\theta)]
+[.dull]#stem:[=]#
+stem:[\cos^2(\theta) - \sin^2(\theta)]
+[.dull]#stem:[=]#
+stem:[2\cos^2(\theta) - 1]
+[.dull]#stem:[=]#
+stem:[1 - 2\sin^2(\theta)]
 
 == Circle
 [.inline]
