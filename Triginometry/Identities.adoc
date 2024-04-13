@@ -8,50 +8,55 @@
 :docinfodir: ..
 
 == SOH CAH TOA
-[.float-left]
+[.inline]
 - stem:[\sin(\theta) = \frac{opp}{hyp}]
+
+[.inline]
 - stem:[\cos(\theta) = \frac{adj}{hyp}]
+
+[.inline]
 - stem:[\tan(\theta) = \frac{opp}{adj}]
 
-[.float-left]
+[.inline]
 - stem:[\csc(\theta) = \frac{hyp}{opp}]
+
+[.inline]
 - stem:[\sec(\theta) = \frac{hyp}{adj}]
+
+[.inline]
 - stem:[\cot(\theta) = \frac{adj}{opp}]
 
-[.float-none]
 == Reciprocal Trig Ratios
 
-[.float-left]
+[.inline]
 - stem:[\sin(\theta) = \frac{1}{\csc(\theta)}]
 - stem:[\cos(\theta) = \frac{1}{\sec(\theta)}]
 - stem:[\tan(\theta) = \frac{1}{\cot(\theta)}]
 
-[.float-left]
+[.inline]
 - stem:[\csc(\theta) = \frac{1}{\sin(\theta)}]
 - stem:[\sec(\theta) = \frac{1}{\cos(\theta)}]
 - stem:[\cot(\theta) = \frac{1}{\tan(\theta)}]
 
-[.float-none]
 == Pythagoras Therom
-[.float-left]
+[.inline]
 - stem:[a^2 + b^2 = c^2]
 
-[.float-left]
+[.inline]
 - stem:[\sin^2(\theta) + \cos^2(\theta) = 1]
 
-[.float-left]
+[.inline]
 - stem:[1 + \cot^2(\theta) = \csc^2(\theta)]
 
-[.float-left]
+[.inline]
 - stem:[1 + \tan^2(\theta) = \sec^2(\theta)]
 
-[.float-none]
 == Relation
 - stem:[\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}]
 
 == Other
-[.float-left]
+[.inline]
 - stem:[sin(\theta) = 0 \leftrightarrow \theta = K\pi]
 
-[.float-left]
+[.inline]
 - stem:[cos(\theta) = 0 \leftrightarrow \theta = \pi/2 + k\pi]
