@@ -1,0 +1,26 @@
+= Linear Algrebra | Basics
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem: latexmath
+:toc: left
+:docinfodir: ..
+
+== Dot Product
+[stem]
+++++
+\left[ \begin{array}{c}
+a_{1} \\
+a_{2} \\
+\vdots \\
+a_{n}
+\end{array} \right]
+
+\left[ \begin{array}{c}
+b_{1} \\
+b_{2} \\
+\vdots \\
+b_{n}
+\end{array} \right]
+++++
