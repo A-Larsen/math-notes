@@ -35,7 +35,32 @@ a_{1} \cdot b_{2} + a_{2} \cdot b_{2} + \dots a_{n} \cdot b_{n}
 ++++
 A \otimes B = C
 \\
-A = M \cdot n
+A = 
+\left[\begin{array}{a}
+a_{11} & a_{12} \\
+a_{21} & a_{22} \\
+\end{array}\right]
+
+B = 
+\left[\begin{array}{b}
+b_{11} & b_{12} & b_{13} \\
+b_{21} & b_{22} & b_{23} \\
+\end{array}\right]
 \\
-B = p \cdot q
+C =
+\\
+\left[\begin{array}{c}
+(a_{11} * b_{11}) + (a_{12} * b_{21}), & (a_{11} * b_{12}) + (a_{12} * b_{22}), & (a_{11} * b_{13}) + (a_{12} * b_{23}) \\
+(a_{21} * b_{11}) + (a_{22} * b_{21}), & (a_{21} * b_{12}) + (a_{22} * b_{22}), & (a_{21} * b_{13}) + (a_{22} * b_{23})
+\end{array}\right]
 ++++
+
+=== Demension Rules
+[stem]
+++++
+B = p \times q
+\\
+A = M \times n
+++++
+
+stem:[n] has to be equal to stem:[p] the demensions of stem:[C] is stem:[m \cdot q]
