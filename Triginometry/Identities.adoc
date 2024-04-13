@@ -59,25 +59,28 @@
 [.inline]
 - stem:[1 + \tan^2(\theta)] [.dull]#stem:[=]# stem:[\sec^2(\theta)]
 
-== Relation
+== Ratio Trigonometric Identities
 [.inline]
 - stem:[\tan(\theta)] [.dull]#stem:[=]# stem:[\frac{\sin(\theta)}{\cos(\theta)}]
 
 [.inline]
+- stem:[\cot(\theta)] [.dull]#stem:[=]# stem:[\frac{\cos(\theta)}{\sin(\theta)}]
+
+
+== Double Angle
+[.inline]
 - stem:[\sin(2\theta)] [.dull]#stem:[=]# stem:[2\sin(\theta)\cos(\theta)]
 
 [.inline]
-- stem:[\cos(2\theta)]
-[.dull]#stem:[=]#
-stem:[\cos^2(\theta) - \sin^2(\theta)]
-[.dull]#stem:[=]#
-stem:[2\cos^2(\theta) - 1]
-[.dull]#stem:[=]#
-stem:[1 - 2\sin^2(\theta)]
+- stem:[\cos(2\theta)] [.dull]#stem:[=]# stem:[\cos^2(\theta) - \sin^2(\theta)] [.dull]#stem:[=]# stem:[2\cos^2(\theta) - 1] [.dull]#stem:[=]# stem:[1 - 2\sin^2(\theta)]
+
+[.inline]
+- stem:[\tan(2\theta)] [.dull]#stem:[=]# stem:[\frac{2\tan(\theta)}{1 - \tan^2(\theta)}]
 
 == Circle
 [.inline]
-- stem:[sin(\theta)] [.dull]#stem:[=]# stem:[0 \leftrightarrow \theta] [.dull]#stem:[=]# stem:[K\pi]
+- stem:[\sin(\theta)] [.dull]#stem:[=]# stem:[0 \leftrightarrow \theta] [.dull]#stem:[=]# stem:[K\pi]
 
 [.inline]
-- stem:[cos(\theta)] [.dull]#stem:[=]# stem:[0 \leftrightarrow \theta] [.dull]#stem:[=]# stem:[\pi/2 + k\pi]
+- stem:[\cos(\theta)] [.dull]#stem:[=]# stem:[0 \leftrightarrow \theta] [.dull]#stem:[=]# stem:[\pi/2 + k\pi]
+
