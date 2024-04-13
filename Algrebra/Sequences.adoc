@@ -15,7 +15,7 @@ The below has a common difference of 4:
 ++++
 3,7,11,15,19,23,27
 ++++
-=== Find Sqecific Index
+=== Find Specific Index
 [stem]
 ++++
 a_{n} = a_{1}+(n-1)d
@@ -34,7 +34,7 @@ The below has a common ratio of 2:
 ++++
 3,6,12,24,48,96,192
 ++++
-=== Find Sqecific Index
+=== Find Specific Index
 [stem]
 ++++
 a_{n} = a_{1}(r)^(n-1)
