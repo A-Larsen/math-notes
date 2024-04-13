@@ -60,7 +60,7 @@ C =
 ++++
 B = p \times q
 \\
-A = M \times n
+A = m \times n
 ++++
 
-stem:[n] has to be equal to stem:[p] the demensions of stem:[C] is stem:[m \cdot q]
+stem:[n] has to be equal to stem:[p]. The demensions of stem:[C] is stem:[m \cdot q]
