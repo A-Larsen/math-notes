@@ -8,23 +8,31 @@
 :docinfodir: ..
 
 == SOH CAH TOA
+[.float-left]
 - stem:[\sin(\theta) = \frac{opp}{hyp}]
 - stem:[\cos(\theta) = \frac{adj}{hyp}]
 - stem:[\tan(\theta) = \frac{opp}{adj}]
 
-== Reciprocal Trig Ratios
+[.float-left]
 - stem:[\csc(\theta) = \frac{hyp}{opp}]
 - stem:[\sec(\theta) = \frac{hyp}{adj}]
 - stem:[\cot(\theta) = \frac{adj}{opp}]
 
+[.float-none]
+== Reciprocal Trig Ratios
+
+[.float-left]
 - stem:[\sin(\theta) = \frac{1}{\csc(\theta)}]
 - stem:[\cos(\theta) = \frac{1}{\sec(\theta)}]
 - stem:[\tan(\theta) = \frac{1}{\cot(\theta)}]
 
+[.float-left]
 - stem:[\csc(\theta) = \frac{1}{\sin(\theta)}]
 - stem:[\sec(\theta) = \frac{1}{\cos(\theta)}]
 - stem:[\cot(\theta) = \frac{1}{\tan(\theta)}]
 
+
+[.float-none]
 == Pythagoras Therom
 - stem:[a^2 + b^2 = c^2]
 - stem:[\sin^2(\theta) + \cos^2(\theta) = 1]
