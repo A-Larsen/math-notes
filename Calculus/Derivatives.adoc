@@ -88,11 +88,22 @@ image::Finding-Critical-Numbers.png[]
 
 == Trigonometric Derivatives
 
+[.inline]
 - stem:[\frac{d}{dx}\[\sinx\] = \cosx]
+
+[.inline]
 - stem:[\frac{d}{dx}\[\cosx\] = -\sinx]
+
+[.inline]
 - stem:[\frac{d}{dx}\[\tanx\] = \sec^2x]
+
+[.inline]
 - stem:[\frac{d}{dx}\[\secx\] = \secx\tanx]
+
+[.inline]
 - stem:[\frac{d}{dx}\[\cotx\] = -\csc^2x]
+
+[.inline]
 - stem:[\frac{d}{dx}\[\cscx\] = -\cscx\cotx]
 
 == Links
