@@ -1,4 +1,4 @@
-= Geometry | Centers
+= Triginometry | Centers
 :docinfo: shared
 :source-highlighter: pygments
 :pygments-style: monokai
