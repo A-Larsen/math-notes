@@ -37,9 +37,21 @@ f(x) = frac{x+4}{(x+4)(x-8)}
 In this function there would be a hole at `-4`
 
 == Limits to Memorize
+
+[.inline]
 - stem:[\lim_{x \to 0^+}1/x = \infty]
+
+[.inline]
 - stem:[\lim_{x \to 0^-}1/x = -\infty]
+
+[.inline]
 - stem:[\lim_{x \to \infty}1/x = 0]
+
+[.inline]
 - stem:[\lim_{x \to 0}\sinx/x = \lim_{x \to 0}x/\sinx = 1]
+
+[.inline]
 - stem:[\lim_{x \to 0}\frac{cosx - 1}{x} = 0]
+
+[.inline]
 - stem:[\lim_{x \to \infty}(1 + 1/x)^x = e \approx 2.7.8]
