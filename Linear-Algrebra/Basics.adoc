@@ -7,7 +7,7 @@
 :toc: left
 :docinfodir: ..
 
-== Dot Product
+== Dot Product (inner-product)
 [stem]
 ++++
 \overrightarrow{a} \cdot \overrightarrow{b} \\
@@ -64,3 +64,20 @@ A = m \times n
 ++++
 
 stem:[n] has to be equal to stem:[p]. The demensions of stem:[C] is stem:[m \cdot q]
+
+== Finding the Magnitude of a Vector
+[stem]
+++++
+||\overrightarrow{a}|| = \sqrt{a_{1}^2 + a_{2}^2 + \dots a_{n}^2}
+++++
+
+== Angles
+=== orthogonality (right angles)
+If the dot product of two vectors is equal to zero then the rays must be
+perendiculator to each other
+
+=== Fiding the angle between two vectors
+[stem]
+++++
+\frac{u \cdot v}{||u|| \cdot ||v||} = cos(\theta)
+++++

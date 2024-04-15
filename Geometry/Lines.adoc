@@ -1,4 +1,4 @@
-= Algrebra | Lines
+= Geometry | Lines
 :docinfo: shared
 :source-highlighter: pygments
 :pygments-style: monokai
@@ -12,3 +12,5 @@ Perpendicular lines have negative reciprocal slopes
 
 [.center]
 image::Perpendicular-Angle.jpg[]
+
+The product of the two slopes should be equal to stem:[-1].
