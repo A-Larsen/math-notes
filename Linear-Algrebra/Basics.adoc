@@ -81,3 +81,6 @@ perendiculator to each other
 ++++
 \frac{u \cdot v}{||u|| \cdot ||v||} = cos(\theta)
 ++++
+
+The result is the x value of the unit cirle, from that you can determine the y
+value of the unit circle and the angle.
