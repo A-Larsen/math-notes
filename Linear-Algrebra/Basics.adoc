@@ -71,6 +71,18 @@ stem:[n] has to be equal to stem:[p]. The demensions of stem:[C] is stem:[m \cdo
 ||\overrightarrow{a}|| = \sqrt{a_{1}^2 + a_{2}^2 + \dots a_{n}^2}
 ++++
 
+== Identity Matrix
+One's are on the diagonal from top left to bottom right. Every other element is
+zero
+[stem]
+++++
+\left[\begin{array}{a}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+\end{array}\right]
+++++
+
 == Angles
 === orthogonality (right angles)
 If the dot product of two vectors is equal to zero then the rays must be
