@@ -1,0 +1,11 @@
+= Probability | Permutations and Combinations.adoc
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem:
+:toc: left
+:docinfodir: ..
+
+== Links
+- https://www.youtube.com/watch?v=XJnIdRXUi7A&t=315s[Permutations and Combinations]
