@@ -140,5 +140,19 @@ y = x^2 + 6x - 5
 1. stem:[y+3^2=x^2+6x+3^2-5]
 2. stem:[y + 9 = (x + 3)^2-5] -> -9 from both sides -> stem:[y=(x+3)^2-14]
 
+== Perfect Square Trinomials
+[stem]
+++++
+a^2 + 2ab + b^2 
+\ 
+or
+\ 
+a^2 - 2ab + b^2 
+++++
+
+[.center]
+image::Perfect-Square-Trinomial.png[]
+
 == Links
 - https://www.desmos.com/calculator[Desmos Graphing]
+- https://www.cuemath.com/algebra/perfect-square-trinomial/[perfect square trinomials]
