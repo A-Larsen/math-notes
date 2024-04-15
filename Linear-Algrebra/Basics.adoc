@@ -83,6 +83,10 @@ zero
 \end{array}\right]
 ++++
 
+== Inverse Matrix
+When a matrix is multiplied by an inverse matrix the result is an identity
+matrix
+
 == Angles
 === orthogonality (right angles)
 If the dot product of two vectors is equal to zero then the rays must be
