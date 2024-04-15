@@ -6,3 +6,7 @@
 :stem:
 :toc: left
 :docinfodir: ..
+
+== Links
+- https://www.youtube.com/watch?v=O4Qnsubo2tg[Die Rolling Probability]
+- https://www.youtube.com/watch?v=D9DFobRr4pw[Probability Using Pascal's Triangle]
