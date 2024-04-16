@@ -59,3 +59,5 @@ f'''(t) -> jerk
 
 [.inline]
 * stem:[X_{0}] -> Initial Position
+
+== Kinematic Equations
