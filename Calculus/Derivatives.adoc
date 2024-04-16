@@ -20,8 +20,9 @@ image::Derivative-Formula.png[]
 ++++
 or \
 \lim_{x \to c} \frac{f(x) - f(c)}{x - c} = f'(c) \
-f'(a) = v(t) \
-f''(a) = a(t) 
+f'(a) = v(t) -> \text{velocity}\
+f''(a) = a(t) -> \text{acceleration}\
+|f'(a)| = s(t) -> \text{speed}
 ++++
 
 == Basic Rules
