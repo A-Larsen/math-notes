@@ -7,7 +7,6 @@
 :toc: left
 :docinfodir: ..
 
-
 == Symbols
 
 [.inline]
@@ -46,6 +45,12 @@
 [.inline]
 * stem:[V_{t}] -> Terminal Velocity
 
+[.inline]
+* stem:[\vec{S}] -> Displacement
+
+[.inline]
+* stem:[\vec{V}] -> Vector
+
 == Kinematic Equations
 [.inline]
 * stem:[V = V_{0}+at]
@@ -58,6 +63,9 @@
 
 [.inline]
 * stem:[V^2 = V_{0}^2 + 2a\Deltax]
+
+[.inline]
+* stem:[\vec{V} = \vec{S}/t] or stem:[r = d/t]
 
 === Instentaneos Rate of Change
 [stem]
