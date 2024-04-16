@@ -43,6 +43,9 @@
 [.inline]
 * stem:[X_{0}] -> Initial Position
 
+[.inline]
+* stem:[V_{t}] -> Terminal Velocity
+
 == Kinematic Equations
 [.inline]
 * stem:[V = V_{0}+at]
