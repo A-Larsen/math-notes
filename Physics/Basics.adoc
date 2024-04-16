@@ -24,3 +24,38 @@ f''(a) = a(t) -> \text{acceleration}\
 |f'(a)| = s(t) -> \text{speed}\
 f'''(t) -> jerk
 ++++
+
+== Symbols
+
+[.inline]
+* stem:[V] or stem:[V_{f}] -> Final velocity
+
+[.inline]
+* stem:[a] -> Acceleration
+
+[.inline]
+* stem:[t] -> Time
+
+[.inline]
+* stem:[V_{0}] -> Initial Velocity
+
+[.inline]
+* stem:[\overline{S}] -> Average Speed
+
+[.inline]
+* stem:[X_{F}] -> Final Position
+
+[.inline]
+* stem:[\Deltax] -> Change in x Axis
+
+[.inline]
+* stem:[\vec{Va}] -> Average Velocity
+
+[.inline]
+* stem:[S_{i}] -> Instantaneos Speed
+
+[.inline]
+* stem:[V_{i}] -> Instantaneos Velocity
+
+[.inline]
+* stem:[X_{0}] -> Initial Position
