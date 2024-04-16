@@ -10,7 +10,9 @@
 == Formula
 [stem]
 ++++
-\lim_{h \to 0} \frac{f(a+h) - f(a)}{h} = f'(a)
+\lim_{h \to 0} \frac{f(a+h) - f(a)}{h} = f'(a) \
+or \
+\lim_{x \to c} \frac{f(x) - f(c)}{x - c} = f'(c)
 ++++
 
 [.center]
