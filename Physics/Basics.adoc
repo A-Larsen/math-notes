@@ -13,7 +13,7 @@
 * stem:[V] or stem:[V_{f}] -> Final velocity
 
 [.inline]
-* stem:[a] -> Acceleration
+* stem:[a] or stem:[\vec{a}] -> Acceleration
 
 [.inline]
 * stem:[t] -> Time
@@ -78,6 +78,9 @@
 
 [.inline]
 * stem:[9.81 frac{m}{s^2}] = acceleration of gravity
+
+[.inline]
+* stem:[\vec{a} = \frac{\Delta\vec{V}}{t}]
 
 NOTE: If the divisor is t then it is assumed to be stem:[\Deltat]
 
