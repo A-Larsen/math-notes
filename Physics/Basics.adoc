@@ -87,3 +87,6 @@ V_{t} = frac{sqrt{2mg}}{pAC_{d}}
 * stem:[C_{d}] is the drag coefficent
 * stem:[p] is the density through which th object is falling
 * stem:[A] is the projected area of the object
+
+== Links
+- https://en.wikipedia.org/wiki/Terminal_velocity[Terminal Velocity]
