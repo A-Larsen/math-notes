@@ -10,13 +10,19 @@
 == Formula
 [stem]
 ++++
-\lim_{h \to 0} \frac{f(a+h) - f(a)}{h} = f'(a) \
-or \
-\lim_{x \to c} \frac{f(x) - f(c)}{x - c} = f'(c)
+\lim_{h \to 0} \frac{f(a+h) - f(a)}{h} = f'(a)
 ++++
 
 [.center]
 image::Derivative-Formula.png[]
+
+[stem]
+++++
+or \
+\lim_{x \to c} \frac{f(x) - f(c)}{x - c} = f'(c) \
+f'(a) = v(t) \
+f''(a) = a(t) 
+++++
 
 == Basic Rules
 
