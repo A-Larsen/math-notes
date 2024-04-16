@@ -82,6 +82,9 @@
 [.inline]
 * stem:[\vec{a} = \frac{\Delta\vec{V}}{t}]
 
+[.inline]
+* if acceleration is constant: stem:[V_{a} = \frac{V_{f} + V_{i}}{2}]
+
 NOTE: If the divisor is t then it is assumed to be stem:[\Deltat]
 
 === Instentaneos Rate of Change
