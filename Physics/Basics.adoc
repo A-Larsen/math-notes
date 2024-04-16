@@ -43,7 +43,7 @@
 [.inline]
 * stem:[X_{0}] -> Initial Position
 
-== More Kinematic Equations
+== Kinematic Equations
 [.inline]
 * stem:[V = V_{0}+at]
 
@@ -71,3 +71,5 @@ f''(x) = a(t) -> \text{acceleration}\
 |f'(x)| = s(t) -> \text{Instentaneos speed}\
 f'''(x) -> jerk
 ++++
+
+== Temrinal Velocity
