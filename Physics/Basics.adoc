@@ -51,6 +51,9 @@
 [.inline]
 * stem:[\vec{V}] -> Vector
 
+[.inline]
+* stem:[V_{avg}] -> Average Velocity
+
 == Kinematic Equations
 [.inline]
 * stem:[V = V_{0}+at]
@@ -66,6 +69,9 @@
 
 [.inline]
 * stem:[\vec{V} = \vec{S}/t] or stem:[r = d/t]
+
+[.inline]
+* stem:[V_{avg} = \Delta{x}/t] -> Average Velocity
 
 === Instentaneos Rate of Change
 [stem]
