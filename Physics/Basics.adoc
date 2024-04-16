@@ -7,23 +7,6 @@
 :toc: left
 :docinfodir: ..
 
-== Instentaneos Rate of Change
-[stem]
-++++
-\lim_{\Delta \to 0} \frac{f(x + \Deltax) - f(c)}{\Deltax} = f'(x)\
-or \
-\lim_{x \to c} \frac{f(x) - f(c)}{x - c} = f'(c)
-++++
-
-=== Terms
-
-[stem]
-++++
-f'(a) = v(t) -> \text{velocity}\
-f''(a) = a(t) -> \text{acceleration}\
-|f'(a)| = s(t) -> \text{speed}\
-f'''(t) -> jerk
-++++
 
 == Symbols
 
@@ -60,4 +43,31 @@ f'''(t) -> jerk
 [.inline]
 * stem:[X_{0}] -> Initial Position
 
-== Kinematic Equations
+== More Kinematic Equations
+[.inline]
+* stem:[V = V_{0}+at]
+
+[.inline]
+* stem:[\Deltax = V_{0}t + 1/2at^2]
+
+[.inline]
+* stem:[\Deltax = \frac{V + V_{0}}{2}t]
+
+[.inline]
+* stem:[V^2 = V_{0}^2 + 2a\Deltax]
+
+=== Instentaneos Rate of Change
+[stem]
+++++
+\lim_{\Delta \to 0} \frac{f(x + \Deltax) - f(c)}{\Deltax} = f'(x)\
+or \
+\lim_{x \to c} \frac{f(x) - f(c)}{x - c} = f'(c)
+++++
+
+[stem]
+++++
+f'(x) = v(t) -> \text{Instentaneos Velocity}\
+f''(x) = a(t) -> \text{acceleration}\
+|f'(x)| = s(t) -> \text{Instentaneos speed}\
+f'''(x) -> jerk
+++++
