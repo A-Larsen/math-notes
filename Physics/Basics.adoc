@@ -116,5 +116,12 @@ V_{t} = frac{sqrt{2mg}}{pAC_{d}}
 * stem:[p] is the density through which th object is falling
 * stem:[A] is the projected area of the object
 
+== Graphing
+If you plot the magnitude of velocity vs time, then the area under the curve is
+the distance traveled.
+
+[.center]
+image::Distance-Traveled.png[]
+
 == Links
 - https://en.wikipedia.org/wiki/Terminal_velocity[Terminal Velocity]
