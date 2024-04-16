@@ -31,7 +31,7 @@
 * stem:[\Deltax] -> Distance?
 
 [.inline]
-* stem:[\vec{Va}] -> Average Velocity
+* stem:[\vec{V_{a}}] -> Average Velocity
 
 [.inline]
 * stem:[S_{i}] -> Instantaneos Speed
@@ -51,9 +51,6 @@
 [.inline]
 * stem:[\vec{V}] -> Vector
 
-[.inline]
-* stem:[V_{avg}] -> Average Velocity
-
 == Kinematic Equations
 [.inline]
 * stem:[V = V_{0}+at]
@@ -71,7 +68,7 @@
 * stem:[\vec{V} = \vec{S}/t] or stem:[r = d/t]
 
 [.inline]
-* stem:[V_{avg} = \frac{\Deltax}{t}]
+* stem:[\vec{V_{a}} = \frac{\Deltax}{t}]
 
 [.inline]
 * stem:[Slope = V_{i}]
@@ -83,7 +80,10 @@
 * stem:[\vec{a} = \frac{\Delta\vec{V}}{t}]
 
 [.inline]
-* if acceleration is constant: stem:[V_{a} = \frac{V_{f} + V_{i}}{2}]
+* if acceleration is constant: stem:[\vec{V_{a}} = \frac{V_{f} + V_{i}}{2}]
+
+[.inline]
+* stem:[\vec{S} = (\vec{V_{a}})\Deltat]
 
 NOTE: If the divisor is t then it is assumed to be stem:[\Deltat]
 
