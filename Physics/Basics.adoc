@@ -72,6 +72,9 @@
 
 [.inline]
 * stem:[V_{avg} = \Delta{x}/t]
+[.inline]
+
+* stem:[Slope = V_{i}]
 
 === Instentaneos Rate of Change
 [stem]
