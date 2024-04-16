@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.16">
-<title>Calculus | Derivatives</title>
+<title>Physics | Basics</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -785,205 +785,46 @@ details[open] > summary::before {
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>Calculus | Derivatives</h1>
+<h1>Physics | Basics</h1>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_derivative_formula">Derivative Formula</a></li>
-<li><a href="#_basic_rules">Basic Rules</a>
+<li><a href="#_instentaneos_rate_of_change">Instentaneos Rate of Change</a>
 <ul class="sectlevel2">
-<li><a href="#_constant_rule">Constant Rule</a></li>
-<li><a href="#_power_rule">Power Rule</a></li>
-<li><a href="#_product_rule">Product Rule</a></li>
-<li><a href="#_quotient_rule">Quotient Rule</a></li>
-<li><a href="#_chain_rule">Chain Rule</a></li>
+<li><a href="#_terms">Terms</a></li>
 </ul>
 </li>
-<li><a href="#_finding_critical_numbers">Finding Critical numbers</a></li>
-<li><a href="#_trigonometric_derivatives">Trigonometric Derivatives</a></li>
-<li><a href="#_links">Links</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_derivative_formula">Derivative Formula</h2>
+<h2 id="_instentaneos_rate_of_change">Instentaneos Rate of Change</h2>
 <div class="sectionbody">
 <div class="stemblock">
 <div class="content">
-\$\lim_{h \to 0} \frac{f(a+h) - f(a)}{h} = f'(a)\$
-</div>
-</div>
-<div class="imageblock center">
-<div class="content">
-<img src="Derivative-Formula.png" alt="Derivative Formula">
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_basic_rules">Basic Rules</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="_constant_rule">Constant Rule</h3>
-<div class="stemblock">
-<div class="content">
-\$\frac{d}{dx} [c] = 0\$
-</div>
+\$\lim_{\Delta \to 0} \frac{f(x + \Deltax) - f(c)}{\Deltax} = f'(x)\$
+\$or\$
+\$\lim_{x \to c} \frac{f(x) - f(c)}{x - c} = f'(c)\$
 </div>
 </div>
 <div class="sect2">
-<h3 id="_power_rule">Power Rule</h3>
+<h3 id="_terms">Terms</h3>
 <div class="stemblock">
 <div class="content">
-\$\frac{d}{dx} [x^n] = nx^(n-1)\$
+\$f'(a) = v(t) -&gt; \text{velocity}\$
+\$f''(a) = a(t) -&gt; \text{acceleration}\$
+\$|f'(a)| = s(t) -&gt; \text{speed}\$
+\$f'''(t) -&gt; jerk\$
 </div>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_product_rule">Product Rule</h3>
-<div class="stemblock">
-<div class="content">
-\$\frac{d}{dx} [f(x)g(x)] = f'(x)g(x) + f(x)g'(x)\$
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_quotient_rule">Quotient Rule</h3>
-<div class="stemblock">
-<div class="content">
-\$\frac{d}{dx} [\frac{f(x)}{g(x)}] = \frac{f'(x)g(x) - f(x)g'(x)}{(g(x))^2}\$
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_chain_rule">Chain Rule</h3>
-<div class="stemblock">
-<div class="content">
-\$\frac{d}{dx} [f(g(x))]  = f'(g(x)) * g'(x)\$
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_finding_critical_numbers">Finding Critical numbers</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Find the critical numbers of</p>
-</div>
-<div class="stemblock">
-<div class="content">
-\$f(x) = 3x^5 - 20x^3\$
-</div>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Find the first derivative of f using the power rule.</p>
-</li>
-</ol>
-</div>
-<div class="stemblock">
-<div class="content">
-\$f(x) = 3x^5 - 20x^3
-\$
-\$f'(x) = 15x^4 - 60x^2\$
-</div>
-</div>
-<div class="olist arabic">
-<ol class="arabic" start="2">
-<li>
-<p>Set the derivative equal to zero and solve for x.</p>
-</li>
-</ol>
-</div>
-<div class="stemblock">
-<div class="content">
-\$15x^4 - 60x^2 = 0
-\$
-\$15x^2(x^2 - 4) = 0
-\$
-\$15x^2(x+2)(x-2) = 0
-\$
-\$15x^2 = 0\ \ or\ \ x + 2 = 0\ \ or\ \ x - 2 = 0
-\$
-\$x = 0\ \ or\ \ x = -2\ \ or\ \ x = 2\$
-</div>
-</div>
-<div class="paragraph">
-<p>These three X-Values are crtical number of f.</p>
-</div>
-<div class="imageblock center">
-<div class="content">
-<img src="Finding-Critical-Numbers.png" alt="Finding Critical Numbers">
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_trigonometric_derivatives">Trigonometric Derivatives</h2>
-<div class="sectionbody">
-<div class="ulist inline">
-<ul>
-<li>
-<p>\$\frac{d}{dx}\[\sinx] = \cosx\$</p>
-</li>
-</ul>
-</div>
-<div class="ulist inline">
-<ul>
-<li>
-<p>\$\frac{d}{dx}\[\cosx] = -\sinx\$</p>
-</li>
-</ul>
-</div>
-<div class="ulist inline">
-<ul>
-<li>
-<p>\$\frac{d}{dx}\[\tanx] = \sec^2x\$</p>
-</li>
-</ul>
-</div>
-<div class="ulist inline">
-<ul>
-<li>
-<p>\$\frac{d}{dx}\[\secx] = \secx\tanx\$</p>
-</li>
-</ul>
-</div>
-<div class="ulist inline">
-<ul>
-<li>
-<p>\$\frac{d}{dx}\[\cotx] = -\csc^2x\$</p>
-</li>
-</ul>
-</div>
-<div class="ulist inline">
-<ul>
-<li>
-<p>\$\frac{d}{dx}\[\cscx] = -\cscx\cotx\$</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_links">Links</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://www.derivative-calculator.net/">Derivative Calculator</a></p>
-</li>
-</ul>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-04-16 13:00:54 -0400
+Last updated 2024-04-16 13:06:56 -0400
 </div>
 </div>
 <script type="text/x-mathjax-config">

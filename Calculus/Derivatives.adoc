@@ -7,7 +7,7 @@
 :toc: left
 :docinfodir: ..
 
-== Formula
+== Derivative Formula
 [stem]
 ++++
 \lim_{h \to 0} \frac{f(a+h) - f(a)}{h} = f'(a)
@@ -16,20 +16,6 @@
 [.center]
 image::Derivative-Formula.png[]
 
-[stem]
-++++
-or \
-\lim_{x \to c} \frac{f(x) - f(c)}{x - c} = f'(c)
-++++
-
-=== Physics
-
-[stem]
-++++
-f'(a) = v(t) -> \text{velocity}\
-f''(a) = a(t) -> \text{acceleration}\
-|f'(a)| = s(t) -> \text{speed}
-++++
 
 == Basic Rules
 
