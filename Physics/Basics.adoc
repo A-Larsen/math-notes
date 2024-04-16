@@ -28,7 +28,7 @@
 * stem:[X_{F}] -> Final Position
 
 [.inline]
-* stem:[\Deltax] -> Change in x Axis
+* stem:[\Deltax] -> Distance?
 
 [.inline]
 * stem:[\vec{Va}] -> Average Velocity
