@@ -136,7 +136,7 @@ V_{t} = frac{sqrt{2mg}}{pAC_{d}}
 
 == Graphing
 === Velocity vs. Time Graphs
-* Slope is acceleration
+* Slope is acceleration and a way to find instentaneos velocity
 * Area is displacement
 
 [.center]
