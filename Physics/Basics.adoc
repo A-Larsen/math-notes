@@ -73,6 +73,8 @@
 [.inline]
 * stem:[Slope = V_{i}]
 
+[.inline]
+* stem:[\vec{V_{a}} = \frac{\Deltax}{t}]
 
 [.inline]
 * stem:[\vec{a} = \frac{\Delta\vec{V}}{t}] or stem:[a = \frac{V_{f} - V_{i}}{\Deltat}]
