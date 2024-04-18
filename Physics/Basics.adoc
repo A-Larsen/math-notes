@@ -117,6 +117,7 @@ V_{t} = frac{sqrt{2mg}}{pAC_{d}}
 * stem:[A] is the projected area of the object
 
 == Graphing
+=== Velocity vs. Time Graphs
 If you plot the magnitude of velocity vs time, then the area under the curve is
 the distance traveled.
 
