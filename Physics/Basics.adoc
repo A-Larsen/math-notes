@@ -124,15 +124,19 @@ V_{t} = frac{sqrt{2mg}}{pAC_{d}}
 
 == Graphing
 === Velocity vs. Time Graphs
-* slope is acceleration
-* area is displacement
+* Alope is acceleration
+* Area is displacement
 
 [.center]
-image::Distance-Traveled.png[]
+image::Displacement.png[]
 
-== Acceleration vs. Time Graphs
-* slope is jerk
-* area is vhange in velocity
+=== Acceleration vs. Time Graphs
+* Slope is jerk
+* Area is change in velocity
+* Typical y-axis: stem:[m/s^2]
+
+[.center]
+image::Change-In-Velocity.png[]
 
 
 == Links
