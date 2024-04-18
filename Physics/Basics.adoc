@@ -137,7 +137,11 @@ f'''(x) -> jerk
 * stem:[g] -> Acceleration of Gravity
 
 [.inline]
-* stem:[m] -> mass
+* stem:[m] -> mass of object
+
+
+[.inline]
+* stem:[r] -> distance between objects
 
 === Equations
 [.inline]
