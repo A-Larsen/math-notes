@@ -128,7 +128,7 @@ f'''(x) -> jerk
 ++++
 
 
-== Force and Gravity
+== Force
 === Symbols
 [.inline]
 * stem:[\vec{F}] -> Force of Gravity
@@ -139,9 +139,12 @@ f'''(x) -> jerk
 [.inline]
 * stem:[m] -> mass of object
 
-
 [.inline]
 * stem:[r] -> distance between objects
+
+[.inline]
+* stem:[\vec{a_{g}}] -> acceleration due to gravity
+
 
 === Equations
 [.inline]
@@ -156,9 +159,15 @@ f'''(x) -> jerk
 [.inline]
 * stem:[\vec{F} = G \frac{m_{1}m_{2}}{r^2}]
 
-=== Constants
-[.inline]
-* g = stem:[9.81 frac{m}{s^2}]
+=== Gravity
+
+[stem]
+++++
+g = G \frac{m}{r^2} = 9.81 frac{m}{s^2}
+++++
+
+* stem:[m] -> Mass of the Earth
+* stem:[r] -> Radius of the Earth
 
 
 == Temrinal Velocity
