@@ -88,6 +88,9 @@
 [.inline]
 * stem:[\DeltaV = a\Deltat]
 
+[.inline]
+* stem:[\frac{\Deltaa}{\Deltat} = jerk]
+
 NOTE: If the divisor is t then it is assumed to be stem:[\Deltat]
 
 === Instentaneos Rate of Change
@@ -121,11 +124,16 @@ V_{t} = frac{sqrt{2mg}}{pAC_{d}}
 
 == Graphing
 === Velocity vs. Time Graphs
-If you plot the magnitude of velocity vs time, then the area under the curve is
-the distance traveled.
+* slope is acceleration
+* area is displacement
 
 [.center]
 image::Distance-Traveled.png[]
+
+== Acceleration vs. Time Graphs
+* slope is jerk
+* area is vhange in velocity
+
 
 == Links
 - https://en.wikipedia.org/wiki/Terminal_velocity[Terminal Velocity]
