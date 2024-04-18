@@ -91,6 +91,9 @@
 [.inline]
 * stem:[\frac{\Deltaa}{\Deltat} = jerk]
 
+[.inline]
+* stem:[V_{i} = V_{f} - a\Deltat]
+
 NOTE: If the divisor is t then it is assumed to be stem:[\Deltat]
 
 === Instentaneos Rate of Change
