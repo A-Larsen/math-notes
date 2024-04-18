@@ -86,6 +86,9 @@
 * stem:[\vec{S} = (\vec{V_{a}})\Deltat]
 
 [.inline]
+* stem:[\vec{S} = \frac{V_{f}^2-V_{i}^2}{2\vec{a}}]
+
+[.inline]
 * stem:[\DeltaV = a\Deltat]
 
 [.inline]
