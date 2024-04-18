@@ -71,19 +71,14 @@
 * stem:[\vec{V} = \vec{S}/t] or stem:[r = d/t]
 
 [.inline]
-* stem:[\vec{V_{a}} = \frac{\Deltax}{t}]
-
-[.inline]
 * stem:[Slope = V_{i}]
 
-[.inline]
-* stem:[9.81 frac{m}{s^2}] = acceleration of gravity
 
 [.inline]
 * stem:[\vec{a} = \frac{\Delta\vec{V}}{t}] or stem:[a = \frac{V_{f} - V_{i}}{\Deltat}]
 
 [.inline]
-* if acceleration is constant: stem:[\vec{V_{a}} = \frac{V_{f} + V_{i}}{2}]
+* if acceleration is constant: stem:[\vec{V_{a}} = \frac{V_{f} + V_{i}}{t}]
 
 [.inline]
 * stem:[\vec{S} = (\vec{V_{a}})\Deltat]
@@ -146,6 +141,10 @@ image::Displacement.png[]
 * Slope is jerk
 * Area is change in velocity
 * Typical y-axis: stem:[m/s^2]
+
+== Other
+[.inline]
+* stem:[9.81 frac{m}{s^2}] = acceleration of gravity
 
 [.center]
 image::Change-In-Velocity.png[]
