@@ -94,6 +94,9 @@
 [.inline]
 * stem:[V_{i} = V_{f} - a\Deltat]
 
+[.inline]
+* stem:[\Deltat = \frac{V_{f} - V_{i}}{a}]
+
 NOTE: If the divisor is t then it is assumed to be stem:[\Deltat]
 
 === Instentaneos Rate of Change
