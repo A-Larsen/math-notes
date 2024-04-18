@@ -51,6 +51,9 @@
 [.inline]
 * stem:[\vec{V}] -> Vector
 
+[.inline]
+* stem:[S_{a}] -> Speed Average
+
 == Kinematic Equations
 [.inline]
 * stem:[V = V_{0}+at]
@@ -96,6 +99,9 @@
 
 [.inline]
 * stem:[\Deltat = \frac{V_{f} - V_{i}}{a}]
+
+[.inline]
+* stem:[S_{a} = \frac{\text{distance}}{\Deltat}]
 
 NOTE: If the divisor is t then it is assumed to be stem:[\Deltat]
 
