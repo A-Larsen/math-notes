@@ -71,9 +71,6 @@
 * stem:[\vec{V} = \vec{S}/t] or stem:[r = d/t]
 
 [.inline]
-* stem:[Slope = V_{i}]
-
-[.inline]
 * stem:[\vec{V_{a}} = \frac{\Deltax}{t}]
 
 [.inline]
@@ -87,6 +84,9 @@
 
 [.inline]
 * stem:[\vec{S} = \frac{V_{f}^2-V_{i}^2}{2\vec{a}}]
+
+[.inline]
+* stem:[2\vec{a}\vec{s} = V_{f}^2 - V_{i}^2]
 
 [.inline]
 * stem:[\DeltaV = a\Deltat]
