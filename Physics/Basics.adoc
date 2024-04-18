@@ -54,6 +54,11 @@
 [.inline]
 * stem:[S_{a}] -> Speed Average
 
+[.inline]
+* stem:[\vec{F}] -> Force of Gravity
+
+* stem:[g] -> Acceleration of Gravity
+
 == Kinematic Equations
 [.inline]
 * stem:[V = V_{0}+at]
@@ -147,12 +152,12 @@ image::Displacement.png[]
 * Area is change in velocity
 * Typical y-axis: stem:[m/s^2]
 
-== Other
-[.inline]
-* stem:[9.81 frac{m}{s^2}] = acceleration of gravity
-
 [.center]
 image::Change-In-Velocity.png[]
+
+== Gravity
+[.inline]
+* stem:[9.81 frac{m}{s^2}] = g
 
 
 == Links
