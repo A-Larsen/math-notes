@@ -77,7 +77,7 @@
 * stem:[9.81 frac{m}{s^2}] = acceleration of gravity
 
 [.inline]
-* stem:[\vec{a} = \frac{\Delta\vec{V}}{t}]
+* stem:[\vec{a} = \frac{\Delta\vec{V}}{t}] or stem:[a = \frac{V_{f} - V_{i}}{\Deltat}]
 
 [.inline]
 * if acceleration is constant: stem:[\vec{V_{a}} = \frac{V_{f} + V_{i}}{2}]
