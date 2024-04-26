@@ -91,10 +91,6 @@
 * stem:[a = \frac{V_{f} - V_{i}}{\Deltat}] 
 
 [.inline]
-* stem:[a = \frac{\Deltax}{t}]
-
-
-[.inline]
 * stem:[\vec{V_{a}} = \frac{V_{f} + V_{i}}{2}]
 
 [.inline]
