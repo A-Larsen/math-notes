@@ -71,10 +71,10 @@
 * stem:[V = V_{0}+at]
 
 [.inline]
-* stem:[\Deltax = V_{0}t + 1/2at^2]
+* stem:[\Deltax = \frac{V + V_{0}}{2}t]
 
 [.inline]
-* stem:[\Deltax = \frac{V + V_{0}}{2}t]
+* stem:[\Deltax = V_{0}t + 1/2at^2]
 
 [.inline]
 * stem:[V^2 = V_{0}^2 + 2a\Deltax]
