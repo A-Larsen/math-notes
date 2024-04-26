@@ -63,6 +63,7 @@
 
 === Equations
 
+==== Basic
 [.inline]
 * stem:[V = V_{0}+at]
 
@@ -75,6 +76,8 @@
 [.inline]
 * stem:[V^2 = V_{0}^2 + 2a\Deltax]
 
+==== Extra
+
 [.inline]
 * stem:[\vec{V} = \vec{S}/t] or stem:[r = d/t]
 
@@ -85,7 +88,7 @@
 * stem:[\vec{a} = \frac{\Delta\vec{V}}{t}] or stem:[a = \frac{V_{f} - V_{i}}{\Deltat}]
 
 [.inline]
-* If acceleration is constant: stem:[\vec{V_{a}} = \frac{V_{f} + V_{i}}{2}]
+* stem:[\vec{V_{a}} = \frac{V_{f} + V_{i}}{2}]
 
 [.inline]
 * stem:[\vec{S} = (\vec{V_{a}})\Deltat]
@@ -113,6 +116,9 @@
 
 
 NOTE: If the divisor is t then it is assumed to be stem:[\Deltat]
+
+WARNING: kinematic formulas are only accurate if the acceleration is constant
+         during the time interval considered
 
 === Instentaneos Rate of Change
 [stem]
