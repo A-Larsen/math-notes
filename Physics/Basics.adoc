@@ -32,7 +32,10 @@
 * stem:[X_{F}] -> Final Position
 
 [.inline]
-* stem:[\Deltax] -> Displacement
+* stem:[\Deltax] -> Displacement of x axis
+
+[.inline]
+* stem:[\Deltay] -> Displacement of y axis
 
 [.inline]
 * stem:[\vec{V_{a}}] -> Average Velocity
