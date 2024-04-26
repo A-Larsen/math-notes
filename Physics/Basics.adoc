@@ -32,7 +32,7 @@
 * stem:[X_{F}] -> Final Position
 
 [.inline]
-* stem:[\Deltax] -> Distance?
+* stem:[\Deltax] -> Displacement
 
 [.inline]
 * stem:[\vec{V_{a}}] -> Average Velocity
