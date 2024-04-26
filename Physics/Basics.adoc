@@ -86,6 +86,8 @@
 
 [.inline]
 * stem:[\vec{a} = \frac{\Delta\vec{V}}{t}] or stem:[a = \frac{V_{f} - V_{i}}{\Deltat}]
+// or stem:[a = \frac{\Deltax}{\Deltat}]
+
 
 [.inline]
 * stem:[\vec{V_{a}} = \frac{V_{f} + V_{i}}{2}]
@@ -157,7 +159,10 @@ f'''(x) -> jerk
 
 === Equations
 [.inline]
-* stem:[\vec{F} = m \cdot g]
+* stem:[\vec{F} = m \cdot g] 
+
+[.inline]
+* stem:[\vec{F} = m \cdot a]
 
 [.inline]
 * stem:[a = \vec{F}/m]
