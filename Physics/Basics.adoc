@@ -221,6 +221,41 @@ image::Displacement.png[]
 image::Change-In-Velocity.png[]
 
 
+== Using Quadradic Formula
+
+[stem]
+++++
+\Delta y=v_{0y} t+\dfrac{1}{2}a_yt^2 \quad \text{(Start with the third kinematic formula.)}
+++++
+
+[stem]
+++++
+12.2\text{ m}=(18.3\text{ m/s})t+\dfrac{1}{2}(-9.81\dfrac{\text{ m}}{\text{ s}^2})t^2 \quad \text{(Plug in known values.)}
+++++
+
+[stem]
+++++
+0=\dfrac{1}{2}(-9.81\dfrac{\text{ m}}{\text{ s}^2})t^2+(18.3\text{ m/s})t -12.2\text{ m} \quad \text{(Put it into the form of the quadratic equation.)}
+++++
+
+[stem]
+++++
+a=\dfrac{1}{2}(-9.81\dfrac{\text{ m}}{\text{ s}^2})
+\
+b=18.3\text{ m/s}
+\
+c=-12.2\text{ m}
+++++
+
+[stem]
+++++
+t=\dfrac{-18.3\text{ m/s}\pm\sqrt{(18.3\text{ m/s})^2-4[\dfrac{1}{2}(-9.81\dfrac{\text{ m}}{\text{ s}^2})(-12.2\text{ m})]}}{2[\dfrac{1}{2}(-9.81\dfrac{\text{ m}}{\text{ s}^2})]}
+++++
+
+[stem]
+++++
+t=0.869\text{s}\ \text{and}\ t=2.86\text{s}
+++++
 
 == Links
 - https://en.wikipedia.org/wiki/Terminal_velocity[Terminal Velocity]
