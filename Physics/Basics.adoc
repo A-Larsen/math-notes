@@ -58,6 +58,9 @@
 [.inline]
 * stem:[S_{a}] -> Speed Average
 
+[.inline]
+* stem:[w] -> weight
+
 === Equations
 
 [.inline]
@@ -158,6 +161,9 @@ f'''(x) -> jerk
 
 [.inline]
 * stem:[\vec{F} = G \frac{m_{1}m_{2}}{r^2}]
+
+[.inline]
+* stem:[w = \frac{m}{g}]
 
 === Gravity
 
