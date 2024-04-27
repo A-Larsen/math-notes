@@ -94,7 +94,7 @@
 * stem:[a = \frac{V_{f} - V_{i}}{\Deltat}] 
 
 [.inline]
-* stem:[\vec{V_{a}} = \frac{V_{f} + V_{i}}{2}]
+* stem:[\vec{V_{a}} = \frac{V_{f} + V_{i}}{2}] ???
 
 [.inline]
 * stem:[\vec{S} = (\vec{V_{a}})\Deltat]
