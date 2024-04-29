@@ -120,6 +120,12 @@
 [.inline]
 * stem:[S_{a} = \frac{\text{distance}}{\Deltat}]
 
+==== 2D Projectile Motion
+There's no acceleration in the horizontal direction since gravity does not pull
+projectiles sideways
+
+[.inline]
+* stem:[Delta x=v_xt \quad]
 
 NOTE: If the divisor is t then it is assumed to be stem:[\Deltat]
 
