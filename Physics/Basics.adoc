@@ -127,6 +127,9 @@ projectiles sideways
 [.inline]
 * stem:[Delta x=v_xt \quad]
 
+An object can start with a horizontal component of velocity, yet have zero
+vertical component of velocity.
+
 NOTE: If the divisor is t then it is assumed to be stem:[\Deltat]
 
 WARNING: kinematic formulas are only accurate if the acceleration is constant
