@@ -1,0 +1,29 @@
+= Triginometry | Basics
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem:
+:toc: left
+:docinfodir: ..
+
+== SOH CAH TOA
+
+== Using inverse functions To Find Angle
+[stem]
+++++
+\tan\theta = \frac{20.8}{7}
+++++
+
+[stem]
+++++
+\tan^-1\theta = tan^-1(\frac{20.8}{7})
+++++
+
+[stem]
+++++
+\theta = 71.5^\circ
+++++
+
+== Links
+* https://www.youtube.com/watch?v=jt7p-mCC0ng[Evaluating Inverse Functions]
