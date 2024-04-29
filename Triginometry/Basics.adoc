@@ -22,8 +22,12 @@
 
 [stem]
 ++++
-\theta = 71.5^\circ
+\theta = 71.4^\circ
 ++++
+
+NOTE: Make sure calculator is in degrees to get the answer in degrees
+
+NOTE: The inverse version of sine, cosine, and tangent have the "arc" prefix
 
 == Links
 * https://www.youtube.com/watch?v=jt7p-mCC0ng[Evaluating Inverse Functions]
