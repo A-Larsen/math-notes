@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.20">
-<title>Linear Algrebra | Basics</title>
+<title>Algrebra | Division</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -783,165 +783,69 @@ details[open] > summary::before {
 
 
 </head>
-<body class="article toc2 toc-left">
+<body class="article">
 <div id="header">
-<h1>Linear Algrebra | Basics</h1>
-<div id="toc" class="toc2">
-<div id="toctitle">Table of Contents</div>
-<ul class="sectlevel1">
-<li><a href="#_dot_product_inner_product">Dot Product (inner-product)</a></li>
-<li><a href="#_matrix_multiplication">Matrix Multiplication</a>
-<ul class="sectlevel2">
-<li><a href="#_demension_rules">Demension Rules</a></li>
-</ul>
-</li>
-<li><a href="#_finding_the_magnitude_of_a_vector">Finding the Magnitude of a Vector</a></li>
-<li><a href="#_identity_matrix">Identity Matrix</a></li>
-<li><a href="#_inverse_matrix">Inverse Matrix</a></li>
-<li><a href="#_angles">Angles</a>
-<ul class="sectlevel2">
-<li><a href="#_orthogonality_right_angles">orthogonality (right angles)</a></li>
-<li><a href="#_fiding_the_angle_between_two_vectors">Fiding the angle between two vectors</a></li>
-</ul>
-</li>
-</ul>
-</div>
+<h1>Algrebra | Division</h1>
 </div>
 <div id="content">
-<div class="sect1">
-<h2 id="_dot_product_inner_product">Dot Product (inner-product)</h2>
-<div class="sectionbody">
-<div class="stemblock">
-<div class="content">
-\[\overrightarrow{a} \cdot \overrightarrow{b} \\
-\left[ \begin{array}{c}
-a_{1} \\
-a_{2} \\
-\vdots \\
-a_{n}
-\end{array} \right]
-
-\cdot
-
-\left[ \begin{array}{c}
-b_{1} \\
-b_{2} \\
-\vdots \\
-b_{n}
-\end{array} \right]
-=
-a_{1} \cdot b_{2} + a_{2} \cdot b_{2} + \dots a_{n} \cdot b_{n}\]
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_matrix_multiplication">Matrix Multiplication</h2>
-<div class="sectionbody">
-<div class="stemblock">
-<div class="content">
-\[A \otimes B = C
-\\
-A =
-\left[\begin{array}{a}
-a_{11} &amp; a_{12} \\
-a_{21} &amp; a_{22} \\
-\end{array}\right]
-
-B =
-\left[\begin{array}{b}
-b_{11} &amp; b_{12} &amp; b_{13} \\
-b_{21} &amp; b_{22} &amp; b_{23} \\
-\end{array}\right]
-\\
-C =
-\\
-\left[\begin{array}{c}
-(a_{11} * b_{11}) + (a_{12} * b_{21}), &amp; (a_{11} * b_{12}) + (a_{12} * b_{22}), &amp; (a_{11} * b_{13}) + (a_{12} * b_{23}) \\
-(a_{21} * b_{11}) + (a_{22} * b_{21}), &amp; (a_{21} * b_{12}) + (a_{22} * b_{22}), &amp; (a_{21} * b_{13}) + (a_{22} * b_{23})
-\end{array}\right]\]
-</div>
-</div>
-<div class="sect2">
-<h3 id="_demension_rules">Demension Rules</h3>
-<div class="stemblock">
-<div class="content">
-\[B = p \times q
-\\
-A = m \times n\]
-</div>
-</div>
-<div class="paragraph">
-<p>\(n\) has to be equal to \(p\). The demensions of \(C\) is \(m \cdot q\)</p>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_finding_the_magnitude_of_a_vector">Finding the Magnitude of a Vector</h2>
-<div class="sectionbody">
-<div class="stemblock">
-<div class="content">
-\[||\overrightarrow{a}|| = \sqrt{a_{1}^2 + a_{2}^2 + \dots a_{n}^2}\]
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_identity_matrix">Identity Matrix</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>One&#8217;s are on the diagonal from top left to bottom right. Every other element is
-zero</p>
-</div>
-<div class="stemblock">
-<div class="content">
-\[\left[\begin{array}{a}
-1 &amp; 0 &amp; 0 \\
-0 &amp; 1 &amp; 0 \\
-0 &amp; 0 &amp; 1 \\
-\end{array}\right]\]
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_inverse_matrix">Inverse Matrix</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>When a matrix is multiplied by an inverse matrix the result is an identity
-matrix</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_angles">Angles</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="_orthogonality_right_angles">orthogonality (right angles)</h3>
-<div class="paragraph">
-<p>If the dot product of two vectors is equal to zero then the rays must be
-perendiculator to each other</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_fiding_the_angle_between_two_vectors">Fiding the angle between two vectors</h3>
-<div class="stemblock">
-<div class="content">
-\[\frac{u \cdot v}{||u|| \cdot ||v||} = cos(\theta)\]
-</div>
-</div>
-<div class="paragraph">
-<p>The result is the x value of the unit cirle, from that you can determine the y
-value of the unit circle and the angle.</p>
-</div>
-</div>
-</div>
-</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Divisor</th>
+<th class="tableblock halign-left valign-top">Rule Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Every integer is divisible by 1.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A number is divisible by 2 if its last digit is even (0, 2, 4, 6, 8).</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A number is divisible by 3 if the sum of its digits is divisible by 3.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A number is divisible by 4 if the last two digits form a number that is divisible by 4.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A number is divisible by 5 if its last digit is 0 or 5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A number is divisible by 6 if it is divisible by both 2 and 3.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">To check divisibility by 7, double the last digit, subtract it from the rest of the number, and see if the result is divisible by 7.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A number is divisible by 8 if the last three digits form a number that is divisible by 8.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">9</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A number is divisible by 9 if the sum of its digits is divisible by 9.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A number is divisible by 10 if it ends in 0.</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-10-30 00:01:59 -0400
+Last updated 2025-11-03 14:08:50 -0500
 </div>
 </div>
 <script type="text/x-mathjax-config">
