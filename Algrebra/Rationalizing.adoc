@@ -21,9 +21,11 @@ Here we can multiply the top and bottom of the fraction by the conjugate to
 simplify the denomitor
 [stem]
 ++++
-\frac{1}{3-\sqrt{2}} * frac{3+sqrt{2}}{3^{2}+(sqrt{2})^{2}} = 
-\frac{3+sqrt{2}}{3^{2}-(sqrt{2})^{2}} =
-\frac{3+sqrt{2}}{7}
+\frac{10}{6+\sqrt{5}} * frac{6-\sqrt{5}}{6-\sqrt{5}} =
+\frac{10(6-\sqrt{5})}{(6+\sqrt{5})(6-\sqrt{4})} =
+\frac{10(6-\sqrt{5})}{36-\sqrt{25}} =
+\frac{10(6-\sqrt{5})}{36-5} =
+\frac{10(6-\sqrt{5})}{31}
 ++++
 
 === Links
