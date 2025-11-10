@@ -1,0 +1,9 @@
+== Order of Operations (PEMDAS)
+Please excuse my dear aunt sally
+
+- Parentheses
+- Exponents
+- Multiply
+- Divide
+- Add
+- Subtract
