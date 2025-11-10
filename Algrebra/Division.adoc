@@ -7,6 +7,8 @@
 :toc: left
 :docinfodir: ..
 
+== Division Rules
+
 [%header, cols="1,1"]
 |===
 | Divisor	| Rule Description
@@ -21,3 +23,7 @@
 | 9	        | A number is divisible by 9 if the sum of its digits is divisible by 9.
 | 10	    | A number is divisible by 10 if it ends in 0.
 |===
+
+== Long Division
+* https://www.youtube.com/watch?v=_FSXJmESFmQ[The Organic Chemestry Tutor | Long division with polynomials]
+* https://www.youtube.com/watch?v=FxHWoUOq2iQ[The Organic Chemestry Tutor | Synthetic division of polynomials]
