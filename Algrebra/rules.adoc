@@ -1,3 +1,5 @@
+== Properties
+* https://www.analyzemath.com/algebra/rules_algebra.html
 == Order of Operations (PEMDAS)
 Please excuse my dear aunt sally
 
