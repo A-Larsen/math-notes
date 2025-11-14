@@ -1,0 +1,16 @@
+= Algrebra | Fractions
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem:
+:toc: left
+:docinfodir: ..
+
+When dividing two fractions, you can flip the second fraction and solve as if
+they were being multiplied to get your answer
+
+[stem]
+++++
+\frac{1}{2} \div \frac{2}{1} = \frac{1}{2} \times \frac{1}{2} = \frac{1}{4}
+++++
