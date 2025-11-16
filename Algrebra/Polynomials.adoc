@@ -153,31 +153,6 @@ a^2 - 2ab + b^2
 [.center]
 image::Perfect-Square-Trinomial.png[]
 
-== Factoring Trinomials into the Products of Binomials
-
-In order to  turn trinmails this into a product of binomials you first need to
-find twwo numbers that when multiplied equal the constant of the trinomial.
-We'll call this `a`. and when added equal the first degree term of the
-polynomails. We'll call this `b`.
-
-Then you can place `a` and `b` into this form and get your result. We are using
-x as the varibale here, but replace x with whatever variable is used in the
-trinomial.
-
-[stem]
-++++
-(x + a)(x + b)
-++++
-
-In the example below the `a` would be `-10` and `b` would be `2`
-
-[stem]
-++++
-x^2 - 8x - 20
-++++
-
-So your answer would be stem:[(x-10)(x+2)]
-
 
 
 == Links
