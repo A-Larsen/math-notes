@@ -164,9 +164,10 @@ Then you can place `a` and `b` into this form and get your result. We are using
 x as the varibale here, but replace x with whatever variable is used in the
 trinomial.
 
-----
+[stem]
+++++
 (x + a)(x + b)
-----
+++++
 
 In the example below the `a` would be `-10` and `b` would be `2`
 
