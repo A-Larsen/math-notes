@@ -150,6 +150,9 @@ or
 a^2 - 2ab + b^2 
 ++++
 
+[.center]
+image::Perfect-Square-Trinomial.png[]
+
 == Factoring Trinomials into the Products of Binomials
 
 In order to  turn trinmails this into a product of binomials you first need to
@@ -175,8 +178,6 @@ x^2 - 8x - 20
 So your answer would be stem:[(x-10)(x+2)]
 
 
-[.center]
-image::Perfect-Square-Trinomial.png[]
 
 == Links
 - https://www.desmos.com/calculator[Desmos Graphing]
