@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.20">
-<title>Untitled</title>
+<title>Algrebra</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -432,17 +432,398 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DotGothic16">
+<link rel="icon" type="image/png" href="N2DE_favicon.png"/>
+
+<style>
+
+/*--------------------------------------------------------------*/
+/*use '!important' to override default css used by asciidoctor*/
+/*--------------------------------------------------------------*/
+
+:root {
+    --gruvbox-black: #282828;
+    --gruvbox-black2: #1d2021;
+    --gruvbox-black3: #463f39;
+    --gruvbox-red: #fb4934;
+    --gruvbox-yellow: #fabd2f;
+    --gruvbox-white: #ebdbb2;
+    --gruvbox-white2: #fbf1c7;
+    --gruvbox-blue: #83a598;
+    --gruvbox-green: #b8bb26;
+    --gruvbox-bg1: #7c6f64;
+    --gruvbox-bg2: #665c54;
+
+}
+
+.title {
+  color: var(--gruvbox-red) !important;
+}
+
+blockquote {
+    color: var(--gruvbox-white) !important;
+}
+
+table {
+    margin: 0 auto !important;
+}
+
+.hdlist1 {
+  font-size: 1.3em;
+}
+
+cite {
+    color: var(--gruvbox-green) !important;
+}
+
+.tableblock {
+    background-color: inherit;
+    color: var(--gruvbox-white);
+    max-width: 95%;
+}
+
+.tableblock th {
+    background-color: var(--gruvbox-black3);
+    color: var(--gruvbox-white);
+    max-width: 97%;
+}
+
+code:not([data-lang]) {
+    background-color: var(--gruvbox-bg2) !important;
+    color: var(--gruvbox-white);
+    text-shadow: none;
+}
+
+.checklist {
+    text-align: left;
+    font-size: .8em;
+}
+
+.checklist li ul { margin-left: 3%;
+}
+
+#content, h1, pre {
+    border-radius: 8px !important;
+}
+
+#header, #content, #footnotes, #footer {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.api-type a:hover {
+    text-decoration: underline;
+}
+
+.api-type, .api-type a {
+    color: var(--gruvbox-green);
+    text-decoration: none;
+}
+
+pre {
+    border-style: solid !important;
+    border-color: white !important;
+    border-width: 2px !important;
+}
+
+h1 {
+    font-family: "DotGothic16", sans-serif !important;
+    background-color: var(--gruvbox-bg2) !important;
+    color: var(--gruvbox-white) !important;
+    opacity: .6;
+}
+
+.admonitionblock > table td.content {
+    color: var(--gruvbox-white) !important;
+}
+
+/*
+html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+*/
+/*html {*/
+body {
+    /*background: black url("background-image-space.jpeg") no-repeat fixed center;*/
+    /*background-color: black;*/
+    background-color: var(--gruvbox-black);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-y: scroll;
+    /*
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    */
+}
+
+
+/*
+body {
+    overflow-y: scroll;
+    background: rgba(0,0,0,0);
+    height: 100%;
+    margin: 2%;
+}
+*/
+
+#toc {
+    background-color: var(--gruvbox-black2) !important;
+    /*opacity: .9;*/
+}
+
+#toctitle {
+    color: var(--gruvbox-red);
+}
+
+a {
+    color: var(--gruvbox-blue);
+}
+
+#content {
+    color: #ebdbb2;
+    background: var(--gruvbox-black);
+    /*opacity: .9;*/
+}
+
+#header > h1:nth-last-child(2) {
+    border-bottom: none !important;
+    background-color: rgba(0, 0, 0, .1);
+    padding-left: 2%;
+}
+
+.sect1 + .sect1 {
+  border-top: none !important;
+}
+
+.sect1 h2 {
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 1px solid var(--gruvbox-white);
+    border-top: 1px solid var(--gruvbox-white);
+    text-align: center;
+    color: var(--gruvbox-white) !important;
+    /*
+    text-shadow: 1px 1px 1px var(--gruvbox-black);
+    text-shadow: 3px 3px 3px var(--gruvbox-black);
+    text-shadow: 5px 5px 5px var(--gruvbox-blue);
+    */
+}
+
+h3, h4, h5 {
+    /*
+    text-shadow: 1px 1px 1px var(--gruvbox-white);
+    */
+}
+
+h3 {
+  color: var(--gruvbox-red) !important;
+}
+
+h4 {
+  color: var(--gruvbox-yellow) !important;
+}
+
+h5 {
+  color: #83a598 !important;
+}
+
+h2 ~ *:not(h1) {
+  margin-left: .5em;
+}
+
+.pygments {
+    max-width: 97% !important;
+    white-space: pre;
+    overflow-x: scroll !important;
+}
+
+::before {
+    /*makes sure that the programming language that show up on hover is within
+      pre tag*/
+    padding-right: 3%;
+}
+
+@media screen and (max-width: 800px) {
+    .checklist li ul {
+        margin-left: 6% !important;
+    }
+    #toc {
+        padding-left: 10px;
+    }
+
+    footer {
+        margin-bottom: 10px !important;
+    }
+    html {
+        margin-bottom: 10px !important;
+    }
+}
+@media screen and (max-width: 535px) {
+    h3 ~ *:not(h2):not(h3) {
+      margin-left: 0 !important;
+    }
+
+    h4 ~ *:not(h2):not(h3):not(.h3):not(h4) {
+      margin-left: 0 !important;
+    }
+    h5 ~ *:not(h2):not(h3):not(.h3):not(h4):not(.h4):not(h5) {
+      margin-left: 0 !important;
+    }
+
+    footer {
+        margin-bottom: 10px !important;
+    }
+    html {
+        margin-bottom: 10px !important;
+    }
+}
+h3 ~ *:not(h2):not(h3) {
+  margin-left: 1.5em;
+}
+
+h4 ~ *:not(h2):not(h3):not(.h3):not(h4) {
+  margin-left: 2em;
+}
+h5 ~ *:not(h2):not(h3):not(.h3):not(h4):not(.h4):not(h5) {
+  margin-left: 2.5em;
+}
+
+
+.sect1 h2 {
+    background: linear-gradient(
+        to bottom,
+        rgba(251, 189, 47, 0.2), /* yellow */
+        rgba(0, 0, 0, 0.4)       /* black */
+    );
+    /*opacity: .9;*/
+  }
+
+#preamble p{
+  padding-left: 10px;
+  color: var(--gruvbox-white) !important;
+}
+
+#footer {
+    max-width: 62.5em !important;
+    padding-left: 10px !important;
+    text-align: center;
+}
+
+.logo img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#header > h1:first-child {
+  margin-top: .3em !important;
+  padding-top: .2em !important;
+  text-align: center;
+}
+
+footer {
+    max-width: 62.5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+details[open] > summary::before {
+   /* display: none;*/
+    border-top: none;
+    content: "▼";
+    margin-top: -12px;
+}
+
+.example.stemblock {
+    border: solid;
+    font-size: 2vw;
+    max-width: 40%;
+    margin: auto;
+}
+
+.center {
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.highlight {
+    color: var(--gruvbox-yellow)
+}
+
+.border {
+    padding: 4px;
+    border: 2px solid rgba(255, 0, 0, .3);
+}
+
+.dull {
+    opacity: 40%;
+}
+
+.inline {
+    margin-right: 5%;
+    display: inline-block;
+}
+
+
+</style>
+
+</head>
+
+<script src="docinfo.js"></script>
+
+
 </head>
 <body class="article">
 <div id="header">
+<h1>Algrebra</h1>
 </div>
 <div id="content">
-
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/complex_numbers.html">complex numbers</a></p>
+</li>
+</ul>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-11-20 18:23:26 -0500
+Last updated 2025-11-20 18:31:12 -0500
 </div>
 </div>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  messageStyle: "none",
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    ignoreClass: "nostem|nolatexmath"
+  },
+  asciimath2jax: {
+    delimiters: [["\\$", "\\$"]],
+    ignoreClass: "nostem|noasciimath"
+  },
+  TeX: { equationNumbers: { autoNumber: "none" } }
+})
+MathJax.Hub.Register.StartupHook("AsciiMath Jax Ready", function () {
+  MathJax.InputJax.AsciiMath.postfilterHooks.Add(function (data, node) {
+    if ((node = data.script.parentNode) && (node = node.parentNode) && node.classList.contains("stemblock")) {
+      data.math.root.display = "block"
+    }
+    return data
+  })
+})
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 </body>
 </html>
