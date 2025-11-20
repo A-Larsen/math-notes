@@ -1,5 +1,18 @@
+= Algrebra | Rules
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem:
+:toc: left
+:docinfodir: ..
+
 == Properties
+image::https://o.quizlet.com/3gRs.XX5diEtgknc3VGaNA_b.png[]
+
+=== Links
 * https://www.analyzemath.com/algebra/rules_algebra.html
+
 == Order of Operations (PEMDAS)
 Please excuse my dear aunt sally
 
