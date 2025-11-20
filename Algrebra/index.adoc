@@ -1,0 +1,10 @@
+= Algrebra
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem:
+:toc: left
+:docinfodir: ..
+
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/complex_numbers.html[complex numbers]
