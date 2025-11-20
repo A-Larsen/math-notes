@@ -25,19 +25,19 @@ ax^m+bx^n
 ++++
 === Quadradic Equation
 
-==== Standard Form
+.Standard Form
 [stem]
 ++++
 ax^2 + bx + c
 ++++
 
-==== Vertex Form
+.Vertex Form
 [stem]
 ++++
 y = a(x-h)^2 + k
 ++++
 
-==== Intercept form
+.Intercept form
 [stem]
 ++++
 y = a(x-p)(x - q)

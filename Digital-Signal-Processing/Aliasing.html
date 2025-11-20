@@ -433,88 +433,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-pre.pygments .hll { background-color: #49483e }
-pre.pygments { background: #272822; color: #F8F8F2 }
-pre.pygments .tok-c { color: #959077 } /* Comment */
-pre.pygments .tok-err { color: #ED007E; background-color: #1E0010 } /* Error */
-pre.pygments .tok-esc { color: #F8F8F2 } /* Escape */
-pre.pygments .tok-g { color: #F8F8F2 } /* Generic */
-pre.pygments .tok-k { color: #66D9EF } /* Keyword */
-pre.pygments .tok-l { color: #AE81FF } /* Literal */
-pre.pygments .tok-n { color: #F8F8F2 } /* Name */
-pre.pygments .tok-o { color: #FF4689 } /* Operator */
-pre.pygments .tok-x { color: #F8F8F2 } /* Other */
-pre.pygments .tok-p { color: #F8F8F2 } /* Punctuation */
-pre.pygments .tok-ch { color: #959077 } /* Comment.Hashbang */
-pre.pygments .tok-cm { color: #959077 } /* Comment.Multiline */
-pre.pygments .tok-cp { color: #959077 } /* Comment.Preproc */
-pre.pygments .tok-cpf { color: #959077 } /* Comment.PreprocFile */
-pre.pygments .tok-c1 { color: #959077 } /* Comment.Single */
-pre.pygments .tok-cs { color: #959077 } /* Comment.Special */
-pre.pygments .tok-gd { color: #FF4689 } /* Generic.Deleted */
-pre.pygments .tok-ge { color: #F8F8F2; font-style: italic } /* Generic.Emph */
-pre.pygments .tok-ges { color: #F8F8F2; font-weight: bold; font-style: italic } /* Generic.EmphStrong */
-pre.pygments .tok-gr { color: #F8F8F2 } /* Generic.Error */
-pre.pygments .tok-gh { color: #F8F8F2 } /* Generic.Heading */
-pre.pygments .tok-gi { color: #A6E22E } /* Generic.Inserted */
-pre.pygments .tok-go { color: #66D9EF } /* Generic.Output */
-pre.pygments .tok-gp { color: #FF4689; font-weight: bold } /* Generic.Prompt */
-pre.pygments .tok-gs { color: #F8F8F2; font-weight: bold } /* Generic.Strong */
-pre.pygments .tok-gu { color: #959077 } /* Generic.Subheading */
-pre.pygments .tok-gt { color: #F8F8F2 } /* Generic.Traceback */
-pre.pygments .tok-kc { color: #66D9EF } /* Keyword.Constant */
-pre.pygments .tok-kd { color: #66D9EF } /* Keyword.Declaration */
-pre.pygments .tok-kn { color: #FF4689 } /* Keyword.Namespace */
-pre.pygments .tok-kp { color: #66D9EF } /* Keyword.Pseudo */
-pre.pygments .tok-kr { color: #66D9EF } /* Keyword.Reserved */
-pre.pygments .tok-kt { color: #66D9EF } /* Keyword.Type */
-pre.pygments .tok-ld { color: #E6DB74 } /* Literal.Date */
-pre.pygments .tok-m { color: #AE81FF } /* Literal.Number */
-pre.pygments .tok-s { color: #E6DB74 } /* Literal.String */
-pre.pygments .tok-na { color: #A6E22E } /* Name.Attribute */
-pre.pygments .tok-nb { color: #F8F8F2 } /* Name.Builtin */
-pre.pygments .tok-nc { color: #A6E22E } /* Name.Class */
-pre.pygments .tok-no { color: #66D9EF } /* Name.Constant */
-pre.pygments .tok-nd { color: #A6E22E } /* Name.Decorator */
-pre.pygments .tok-ni { color: #F8F8F2 } /* Name.Entity */
-pre.pygments .tok-ne { color: #A6E22E } /* Name.Exception */
-pre.pygments .tok-nf { color: #A6E22E } /* Name.Function */
-pre.pygments .tok-nl { color: #F8F8F2 } /* Name.Label */
-pre.pygments .tok-nn { color: #F8F8F2 } /* Name.Namespace */
-pre.pygments .tok-nx { color: #A6E22E } /* Name.Other */
-pre.pygments .tok-py { color: #F8F8F2 } /* Name.Property */
-pre.pygments .tok-nt { color: #FF4689 } /* Name.Tag */
-pre.pygments .tok-nv { color: #F8F8F2 } /* Name.Variable */
-pre.pygments .tok-ow { color: #FF4689 } /* Operator.Word */
-pre.pygments .tok-pm { color: #F8F8F2 } /* Punctuation.Marker */
-pre.pygments .tok-w { color: #F8F8F2 } /* Text.Whitespace */
-pre.pygments .tok-mb { color: #AE81FF } /* Literal.Number.Bin */
-pre.pygments .tok-mf { color: #AE81FF } /* Literal.Number.Float */
-pre.pygments .tok-mh { color: #AE81FF } /* Literal.Number.Hex */
-pre.pygments .tok-mi { color: #AE81FF } /* Literal.Number.Integer */
-pre.pygments .tok-mo { color: #AE81FF } /* Literal.Number.Oct */
-pre.pygments .tok-sa { color: #E6DB74 } /* Literal.String.Affix */
-pre.pygments .tok-sb { color: #E6DB74 } /* Literal.String.Backtick */
-pre.pygments .tok-sc { color: #E6DB74 } /* Literal.String.Char */
-pre.pygments .tok-dl { color: #E6DB74 } /* Literal.String.Delimiter */
-pre.pygments .tok-sd { color: #E6DB74 } /* Literal.String.Doc */
-pre.pygments .tok-s2 { color: #E6DB74 } /* Literal.String.Double */
-pre.pygments .tok-se { color: #AE81FF } /* Literal.String.Escape */
-pre.pygments .tok-sh { color: #E6DB74 } /* Literal.String.Heredoc */
-pre.pygments .tok-si { color: #E6DB74 } /* Literal.String.Interpol */
-pre.pygments .tok-sx { color: #E6DB74 } /* Literal.String.Other */
-pre.pygments .tok-sr { color: #E6DB74 } /* Literal.String.Regex */
-pre.pygments .tok-s1 { color: #E6DB74 } /* Literal.String.Single */
-pre.pygments .tok-ss { color: #E6DB74 } /* Literal.String.Symbol */
-pre.pygments .tok-bp { color: #F8F8F2 } /* Name.Builtin.Pseudo */
-pre.pygments .tok-fm { color: #A6E22E } /* Name.Function.Magic */
-pre.pygments .tok-vc { color: #F8F8F2 } /* Name.Variable.Class */
-pre.pygments .tok-vg { color: #F8F8F2 } /* Name.Variable.Global */
-pre.pygments .tok-vi { color: #F8F8F2 } /* Name.Variable.Instance */
-pre.pygments .tok-vm { color: #F8F8F2 } /* Name.Variable.Magic */
-pre.pygments .tok-il { color: #AE81FF } /* Literal.Number.Integer.Long */
-</style>
 <head>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DotGothic16">
 <link rel="icon" type="image/png" href="N2DE_favicon.png"/>
@@ -888,18 +806,18 @@ frequencies \$kf_{s} \pm f\$ for any integer \$k\$.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code data-lang="python"><span></span><span class="tok-kn">from</span><span class="tok-w"> </span><span class="tok-nn">math</span><span class="tok-w"> </span><span class="tok-kn">import</span> <span class="tok-n">cos</span><span class="tok-p">,</span> <span class="tok-n">pi</span>
+<pre class="pygments highlight"><code data-lang="python">from math import cos, pi
 
-<span class="tok-n">sample_rate</span> <span class="tok-o">=</span> <span class="tok-mi">10</span>
-<span class="tok-n">frequency</span> <span class="tok-o">=</span> <span class="tok-mi">2</span>
+sample_rate = 10
+frequency = 2
 
-<span class="tok-k">for</span> <span class="tok-n">sample_number</span> <span class="tok-ow">in</span> <span class="tok-nb">range</span><span class="tok-p">(</span><span class="tok-mi">0</span><span class="tok-p">,</span> <span class="tok-mi">40</span><span class="tok-p">):</span>
-    <span class="tok-k">for</span> <span class="tok-n">k</span> <span class="tok-ow">in</span> <span class="tok-nb">range</span><span class="tok-p">(</span><span class="tok-o">-</span><span class="tok-mi">20</span><span class="tok-p">,</span> <span class="tok-mi">20</span><span class="tok-p">):</span>
-        <span class="tok-n">t</span> <span class="tok-o">=</span> <span class="tok-n">sample_number</span> <span class="tok-o">*</span> <span class="tok-mi">1</span> <span class="tok-o">/</span> <span class="tok-n">sample_rate</span>
-        <span class="tok-n">a</span> <span class="tok-o">=</span> <span class="tok-n">cos</span><span class="tok-p">(</span><span class="tok-mi">2</span> <span class="tok-o">*</span> <span class="tok-n">pi</span> <span class="tok-o">*</span> <span class="tok-n">frequency</span> <span class="tok-o">*</span> <span class="tok-n">t</span><span class="tok-p">)</span>
-        <span class="tok-n">b</span> <span class="tok-o">=</span> <span class="tok-n">cos</span><span class="tok-p">(</span><span class="tok-mi">2</span> <span class="tok-o">*</span> <span class="tok-n">pi</span> <span class="tok-o">*</span> <span class="tok-p">(</span><span class="tok-n">k</span> <span class="tok-o">*</span> <span class="tok-n">sample_rate</span> <span class="tok-o">+</span> <span class="tok-n">frequency</span><span class="tok-p">)</span> <span class="tok-o">*</span> <span class="tok-n">t</span><span class="tok-p">)</span>
-        <span class="tok-n">c</span> <span class="tok-o">=</span> <span class="tok-n">cos</span><span class="tok-p">(</span><span class="tok-mi">2</span> <span class="tok-o">*</span> <span class="tok-n">pi</span> <span class="tok-o">*</span> <span class="tok-p">(</span><span class="tok-n">k</span> <span class="tok-o">*</span> <span class="tok-n">sample_rate</span> <span class="tok-o">-</span> <span class="tok-n">frequency</span><span class="tok-p">)</span> <span class="tok-o">*</span> <span class="tok-n">t</span><span class="tok-p">)</span>
-        <span class="tok-nb">print</span><span class="tok-p">(</span><span class="tok-n">a</span><span class="tok-p">,</span> <span class="tok-n">b</span><span class="tok-p">,</span> <span class="tok-n">c</span><span class="tok-p">)</span></code></pre>
+for sample_number in range(0, 40):
+    for k in range(-20, 20):
+        t = sample_number * 1 / sample_rate
+        a = cos(2 * pi * frequency * t)
+        b = cos(2 * pi * (k * sample_rate + frequency) * t)
+        c = cos(2 * pi * (k * sample_rate - frequency) * t)
+        print(a, b, c)</code></pre>
 </div>
 </div>
 </div>
@@ -907,7 +825,7 @@ frequencies \$kf_{s} \pm f\$ for any integer \$k\$.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-10-30 00:01:59 -0400
+Last updated 2025-11-17 09:06:29 -0500
 </div>
 </div>
 <script type="text/x-mathjax-config">
