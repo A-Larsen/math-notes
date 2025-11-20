@@ -1,0 +1,7 @@
+== Viewing webpages without cloning repository
+1. Go to an html file
+2. view it as raw html
+3. In url, replace raw.githubusercontent.com with raw.githack.com. To view the
+files
+== Links
+* https://www.youtube.com/watch?v=LVVi30Aw54Q
