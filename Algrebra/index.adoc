@@ -8,3 +8,8 @@
 :docinfodir: ..
 
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/complex_numbers.html[complex numbers]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Division.html[Division]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/fractions.html[fractions]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/linear_inequalities.html[linear_inequalities.html]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Polynomials.html[Polynomials]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/rules.html[rules/properties]
