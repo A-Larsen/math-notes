@@ -23,11 +23,26 @@ should belong to real number (stem:[\exists\mathbb{R}]).
 ++++
 ax^m+bx^n
 ++++
-=== Standard Form of Quadradic Equation
+=== Quadradic Equation
+
+==== Standard Form
 [stem]
 ++++
 ax^2 + bx + c
 ++++
+
+==== Vertex Form
+[stem]
+++++
+y = a(x-h)^2 + k
+++++
+
+==== Intercept form
+[stem]
+++++
+y = a(x-p)(x - q)
+++++
+
 === Line Slope-Intercept Form
 [stem]
 ++++
