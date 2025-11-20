@@ -1,0 +1,8 @@
+= Math Notes
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem: latexmath
+:toc: left
+:docinfodir:
