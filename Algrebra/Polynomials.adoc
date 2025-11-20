@@ -174,4 +174,5 @@ image::Perfect-Square-Trinomial.png[]
 - https://www.desmos.com/calculator[Desmos Graphing]
 - https://www.cuemath.com/algebra/perfect-square-trinomial/[perfect square trinomials]
 - https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratic-functions-equations/x2f8bb11595b61c86:vertex-form/v/vertex-form-intro[vertex-form]
-- https://www.cuemath.com/algebra/polynomials/
+- https://www.youtube.com/watch?v=2MKigAgPZMQ[completing the square]
+- https://www.cuemath.com/algebra/polynomials/[cuemath polynomials]
