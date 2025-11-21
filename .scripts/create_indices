@@ -24,7 +24,7 @@ for dir in $dirsearch; do
      for adoc in $(topicSearch); do
         file=$(echo "$adoc" | cut -c 3-)
         topic=${file%.*}
-        echo "* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/${topic}.html[${topic}]" >> index.adoc
+        echo "* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/${dir}/${topic}.html[${topic}]" >> index.adoc
          # echo $topic
 
     done
