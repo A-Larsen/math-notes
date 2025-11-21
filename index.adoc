@@ -3,14 +3,15 @@
 :source-highlighter: pygments
 :pygments-style: monokai
 :icons: font
-:stem: latexmath
 :toc: left
 :docinfodir:
 
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/index.html[Algrebra]
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Calculus/index.html[Calculus]
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Geometry/index.html[Geometry]
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Graphing/index.html[Graphing]
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Linear-Algrebra/index.html[Linear-Algrebra]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Calculus/index.html[Calculus]
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Physics/index.html[Physics]
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Triginometry/index.html[Triginometry]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Probability/index.html[Probability]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/index.html[Algrebra]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Digital-Signal-Processing/index.html[Digital-Signal-Processing]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Geometry/index.html[Geometry]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Linear-Algrebra/index.html[Linear-Algrebra]

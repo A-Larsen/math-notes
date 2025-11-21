@@ -1,15 +1,31 @@
 #!/usr/bin/bash
 echo "creating indices..."
+
 dirsearch="$(find . -maxdepth 1 -type d -not -name '.*')"
 
 function topicSearch() {
     find . -maxdepth 1 -type f -not -name 'index.adoc' -name '*.adoc'
 }
 
+rm -rf index.adoc
+rd="$PWD"
+
+echo "= Math Notes
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:toc: left
+:docinfodir:
+" > index.adoc
+
 for dir in $dirsearch; do
     cd $dir > /dev/null
 
     topic=$(echo ${dir} | cut -c 3-)
+
+    echo "* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/${topic}/index.html[${topic}]" >> ../index.adoc
+
     rm -rf index.adoc
          echo \
 "= $dir
