@@ -8,9 +8,9 @@ function topicSearch() {
 }
 
 for dir in $dirsearch; do
-     # echo "dir: " $dir
      for adoc in $(topicSearch $dir); do
-        echo "adoc: " $adoc
+         file=$(echo "$adoc" | cut -c 3-)
+         echo ${file%.*}
     done
 done
 
