@@ -3,7 +3,9 @@ To view the rendered notes, you can visit this site: https://raw.githack.com/A-L
 
 == Building
 To convert all the ascii files into html run this command in the root directory
+
 ----
 make
 ----
 
+It will automatically create _index.html_ pages for each subject
