@@ -9,6 +9,6 @@
 
 == Topics
 
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Centers.html[Centers]
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Basics.html[Basics]
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Identities.html[Identities]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Triginometry/Centers.html[Centers]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Triginometry/Basics.html[Basics]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Triginometry/Identities.html[Identities]

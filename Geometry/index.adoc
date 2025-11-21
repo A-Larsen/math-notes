@@ -9,5 +9,5 @@
 
 == Topics
 
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Circle-Theorems.html[Circle-Theorems]
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Lines.html[Lines]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Geometry/Circle-Theorems.html[Circle-Theorems]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Geometry/Lines.html[Lines]

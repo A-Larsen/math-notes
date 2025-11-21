@@ -9,4 +9,4 @@
 
 == Topics
 
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Basics.html[Basics]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Physics/Basics.html[Basics]

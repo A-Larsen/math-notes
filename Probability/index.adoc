@@ -9,5 +9,5 @@
 
 == Topics
 
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Permutations-and-Combinations.html[Permutations-and-Combinations]
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Pascals-Triangle.html[Pascals-Triangle]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Probability/Permutations-and-Combinations.html[Permutations-and-Combinations]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Probability/Pascals-Triangle.html[Pascals-Triangle]

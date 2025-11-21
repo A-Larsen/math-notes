@@ -8,6 +8,7 @@ function topicSearch() {
 for dir in $dirsearch; do
     cd $dir > /dev/null
 
+    rm -rf index.adoc
          echo \
 "= $dir
 :docinfo: shared

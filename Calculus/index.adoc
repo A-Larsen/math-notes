@@ -9,5 +9,5 @@
 
 == Topics
 
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Derivatives.html[Derivatives]
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Limits.html[Limits]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Calculus/Derivatives.html[Derivatives]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Calculus/Limits.html[Limits]
