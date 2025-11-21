@@ -17,13 +17,13 @@ for dir in $dirsearch; do
 :stem:
 :toc: left
 :docinfodir: ..
-" > index.html
+" > index.adoc
 
      for adoc in $(topicSearch); do
         file=$(echo "$adoc" | cut -c 3-)
         topic=${file%.*}
-        echo "== Topics" >> index.html
-        echo "* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/${topic}.html[${topic}]" >> index.html
+        echo "== Topics" >> index.adoc
+        echo "* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/${topic}.html[${topic}]" >> index.adoc
          # echo $topic
 
     done

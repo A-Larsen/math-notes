@@ -1,0 +1,11 @@
+= ./Physics
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem:
+:toc: left
+:docinfodir: ..
+
+== Topics
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Basics.html[Basics]
