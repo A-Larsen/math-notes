@@ -2,15 +2,32 @@
 dirsearch="$(find . -maxdepth 1 -type d -not -name '.*')"
 
 function topicSearch() {
-    cd $1 > /dev/null
     find . -maxdepth 1 -type f -not -name 'index.adoc' -name '*.adoc'
-    cd - > /dev/null
 }
 
 for dir in $dirsearch; do
-     for adoc in $(topicSearch $dir); do
-         file=$(echo "$adoc" | cut -c 3-)
-         echo ${file%.*}
+    cd $dir > /dev/null
+
+         echo \
+"= $dir
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem:
+:toc: left
+:docinfodir: ..
+" > index.html
+
+     for adoc in $(topicSearch); do
+        file=$(echo "$adoc" | cut -c 3-)
+        topic=${file%.*}
+        echo "== Topics" >> index.html
+        echo "* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/${topic}.html[${topic}]" >> index.html
+         # echo $topic
+
     done
+
+    cd - > /dev/null
 done
 
