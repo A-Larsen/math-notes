@@ -1,2 +1,9 @@
 == My Math notes
 To view the rendered notes, you can visit this site: https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/index.html[my-math-notes].
+
+== Building
+To convert all the ascii files into html run this command in the root directory
+----
+make
+----
+
