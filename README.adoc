@@ -8,4 +8,5 @@ To convert all the ascii files into html run this command in the root directory
 make
 ----
 
-It will automatically create _index.html_ pages for each subject
+It will automatically create a _index.html_ page for each subject. You do not
+need to make _index.html_ pages yourself
