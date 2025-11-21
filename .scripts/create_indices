@@ -8,6 +8,7 @@ function topicSearch() {
 for dir in $dirsearch; do
     cd $dir > /dev/null
 
+    topic=$(echo ${dir} | cut -c 3-)
     rm -rf index.adoc
          echo \
 "= $dir
@@ -24,9 +25,10 @@ for dir in $dirsearch; do
 
      for adoc in $(topicSearch); do
         file=$(echo "$adoc" | cut -c 3-)
-        topic=${file%.*}
-        echo "* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/${dir}/${topic}.html[${topic}]" >> index.adoc
-         # echo $topic
+        subTopic=${file%.*}
+        # echo $subTopic
+        echo "* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/${topic}/${subTopic}.html[${subTopic}]" >> index.adoc
+        #  # echo $subTopic
 
     done
 

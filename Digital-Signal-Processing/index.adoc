@@ -9,5 +9,5 @@
 
 == Topics
 
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Digital-Signal-Processing/Aliasing.html[Aliasing]
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Digital-Signal-Processing/Interpolation.html[Interpolation]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Digital-Signal-Processing/Aliasing.html[Aliasing]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Digital-Signal-Processing/Interpolation.html[Interpolation]

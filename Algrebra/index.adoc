@@ -9,11 +9,11 @@
 
 == Topics
 
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Algrebra/Polynomials.html[Polynomials]
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Algrebra/Division.html[Division]
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Algrebra/linear_inequalities.html[linear_inequalities]
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Algrebra/Sequences.html[Sequences]
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Algrebra/Rationalizing.html[Rationalizing]
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Algrebra/complex_numbers.html[complex_numbers]
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Algrebra/rules.html[rules]
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/./Algrebra/fractions.html[fractions]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Polynomials.html[Polynomials]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Division.html[Division]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/linear_inequalities.html[linear_inequalities]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Sequences.html[Sequences]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Rationalizing.html[Rationalizing]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/complex_numbers.html[complex_numbers]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/rules.html[rules]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/fractions.html[fractions]
