@@ -8,6 +8,6 @@
 :docinfodir: ..
 
 == Topics
+
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Permutations-and-Combinations.html[Permutations-and-Combinations]
-== Topics
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Pascals-Triangle.html[Pascals-Triangle]

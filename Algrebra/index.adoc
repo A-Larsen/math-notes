@@ -8,18 +8,12 @@
 :docinfodir: ..
 
 == Topics
+
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Polynomials.html[Polynomials]
-== Topics
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Division.html[Division]
-== Topics
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/linear_inequalities.html[linear_inequalities]
-== Topics
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Sequences.html[Sequences]
-== Topics
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Rationalizing.html[Rationalizing]
-== Topics
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/complex_numbers.html[complex_numbers]
-== Topics
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/rules.html[rules]
-== Topics
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/fractions.html[fractions]

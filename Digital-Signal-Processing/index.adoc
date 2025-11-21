@@ -8,6 +8,6 @@
 :docinfodir: ..
 
 == Topics
+
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Aliasing.html[Aliasing]
-== Topics
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Interpolation.html[Interpolation]

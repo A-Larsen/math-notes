@@ -8,6 +8,6 @@
 :docinfodir: ..
 
 == Topics
+
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Derivatives.html[Derivatives]
-== Topics
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Limits.html[Limits]

@@ -8,6 +8,6 @@
 :docinfodir: ..
 
 == Topics
+
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Circle-Theorems.html[Circle-Theorems]
-== Topics
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/Lines.html[Lines]
