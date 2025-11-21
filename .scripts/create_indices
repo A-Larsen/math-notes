@@ -2,11 +2,13 @@
 dirsearch="$(find . -maxdepth 1 -type d -not -name '.*')"
 
 function topicSearch() {
-    find $1 -maxdepth 1 -type f -not -name 'index.adoc' -name '*.adoc'
+    cd $1 > /dev/null
+    find . -maxdepth 1 -type f -not -name 'index.adoc' -name '*.adoc'
+    cd - > /dev/null
 }
 
 for dir in $dirsearch; do
-     echo "dir: " $dir
+     # echo "dir: " $dir
      for adoc in $(topicSearch $dir); do
         echo "adoc: " $adoc
     done
