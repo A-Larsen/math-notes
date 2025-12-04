@@ -1,0 +1,42 @@
+= Physics | Collision
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem:
+:toc: left
+:docinfodir: ..
+
+== Circle and Rect collision
+
+[source,c]
+----
+bool circleRectCollide(SDL_Point circle, float r,
+                       SDL_Rect rect)
+{
+    // does this assume that circle x and circle y are the center of the circle?
+    float closestX = clamp(circle.x, rect.x, rect.x + rect.w);
+    float closestY = clamp(circle.y, rect.y, rect.y + rect.h);
+
+    // this gets the distance form the center of the circle to a side of a
+    // rectangle. It could be negative or positive. Because we are squaring them
+    // it doesn't matter.
+    float dx = circle.x - closestX;
+    float dy = circle.y - closestY;
+
+    // use the dot product to determine collision
+    return (dx*dx + dy*dy) <= (r*r);
+}
+----
+
+== Circle and Circle collision
+[source,c]
+----
+bool circlesCollide(Circle a, Circle b) {
+    float dx = b.x - a.x;
+    float dy = b.y - a.y;
+    float distance = sqrtf(dx * dx + dy * dy);
+
+    return distance <= (a.r + b.r);
+}
+----
