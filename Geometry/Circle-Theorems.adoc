@@ -7,6 +7,13 @@
 :toc: left
 :docinfodir: ..
 
+
+== Formulas
+
+* Circumfrerence = stem:[2\pir]
+* Diameter = stem:[2r]
+* Area = stem:[\pir^2]
+
 == Lines
 
 [.center]
