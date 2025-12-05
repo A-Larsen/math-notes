@@ -1,0 +1,29 @@
+= Physics | Bouncing Ball
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem:
+:toc: left
+:docinfodir: ..
+
+== Formulas
+* velocity downward
+    - stem:[v = g t]
+
+* height 
+    - stem:[h = h_0 - \frac{1}{2}t^2]
+
+* how long any object takes to fall from a given height
+    - stem:[t = \sqrt{\frac{2h}{g}}]
+
+* restitution
+    - stem:[v_1 = e * v_0]
+    - the coefficent of resitution (e) represents energy loss.
+
+* rising
+    - stem:[ v = e * v - g t ]
+
+* falling
+    - stem:[ v = g t ]
+
