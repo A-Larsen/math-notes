@@ -8,6 +8,7 @@
 :docinfodir: ..
 
 == Formulas
+
 * velocity downward
     - stem:[v = g t]
 
@@ -27,3 +28,9 @@
 * falling
     - stem:[ v = g t ]
 
+== Restitution
+Typical values:
+
+* Rubber ball: stem:[e \approx 0.8 - 0.9]
+* Basketball: stem:[e \approx 0.75]
+* Tennis ball: stem:[e \approx 0.6]
