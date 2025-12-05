@@ -789,7 +789,12 @@ details[open] > summary::before {
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_dot_product_inner_product">Dot Product (inner-product)</a></li>
+<li><a href="#_dot_product">Dot Product</a>
+<ul class="sectlevel2">
+<li><a href="#_inner_product">inner-product</a></li>
+<li><a href="#_normal_vector_and_dot_procuct">normal vector and dot procuct</a></li>
+</ul>
+</li>
 <li><a href="#_matrix_multiplication">Matrix Multiplication</a>
 <ul class="sectlevel2">
 <li><a href="#_demension_rules">Demension Rules</a></li>
@@ -809,8 +814,10 @@ details[open] > summary::before {
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_dot_product_inner_product">Dot Product (inner-product)</h2>
+<h2 id="_dot_product">Dot Product</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_inner_product">inner-product</h3>
 <div class="stemblock">
 <div class="content">
 \[\overrightarrow{a} \cdot \overrightarrow{b} \\
@@ -831,6 +838,28 @@ b_{n}
 \end{array} \right]
 =
 a_{1} \cdot b_{2} + a_{2} \cdot b_{2} + \dots a_{n} \cdot b_{n}\]
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_normal_vector_and_dot_procuct">normal vector and dot procuct</h3>
+<div class="paragraph">
+<p>A normal vector has a magnitude of one and can point in any direction. The dot
+product of the normal vector and a point can tell you the distance that point is
+in that direction from the starting point of the normal vector.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="dot_product.png" alt="dot product">
+</div>
+</div>
+<div class="stemblock">
+<div class="content">
+\[a = normal vector \\
+b = point \\
+\\
+a.x * b.x + a.y * b.y = distance\]
+</div>
 </div>
 </div>
 </div>
@@ -941,7 +970,7 @@ value of the unit circle and the angle.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-11-17 09:06:29 -0500
+Last updated 2025-12-04 23:52:44 -0500
 </div>
 </div>
 <script type="text/x-mathjax-config">

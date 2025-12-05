@@ -7,7 +7,9 @@
 :toc: left
 :docinfodir: ..
 
-== Dot Product (inner-product)
+== Dot Product
+
+=== inner-product
 [stem]
 ++++
 \overrightarrow{a} \cdot \overrightarrow{b} \\
@@ -28,6 +30,24 @@ b_{n}
 \end{array} \right]
 =
 a_{1} \cdot b_{2} + a_{2} \cdot b_{2} + \dots a_{n} \cdot b_{n}
+++++
+
+=== normal vector and dot procuct
+
+A normal vector has a magnitude of one and can point in any direction. The dot
+product of the normal vector and a point can tell you the distance that point is
+in that direction from the starting point of the normal vector.
+
+image::dot_product.png[]
+
+
+[stem]
+++++
+a = normal vector \\
+b = point \\
+\\
+a.x * b.x + a.y * b.y = distance
+
 ++++
 
 == Matrix Multiplication
