@@ -67,6 +67,59 @@ stem:[x_{1},y_{1}]:: any pont on the line
 Values of the variable such that the polynomial equals 0. Often represented as
 stem:[\alpha], stem:[\beta], and y respectively.
 
+
+[stem]
+++++
+f(x) = x^3 - 2x^2 - x + 2
+++++
+
+=== Finding the numnber of total real zeros
+The degree of the polynomial represents the total number of real zeros.
+
+=== Finding the numnber of positive real zeros
+Descrates Rule of Signs::
+    The number of positive real zeros is either equal to the number of sign
+    changes, or less a positive even integer
+
+According To *Descartes Rule of signs* The numnber of positive real zeros could
+be 2, because there were to sign changes, or 0 because 2 - 2 is zero and 2 is a
+positive even integer.
+
+=== Finding the number of negative real zeros
+First look at the equation as if you added a negative symbol to x.
+
+[stem]
+++++
+f(-x) = (-x)^3 - 2(-x)^2 - (-x) + 2 \
+\ = -z^3 - 2x^2 + x + 2
+++++
+
+The number of negative real zeros, is either equal to the number of sign
+changes, or less than a positive even integer in the equation.
+
+There is one sign change so the answer is one. One is the only answer because
+one minus two would be negative one and you cannot have a negative number of
+negative real zeros.
+
+=== Finding the number of imaginary real zeros
+In this case if we look at the chart, we know that there has to be three total
+real zeros. If we fall into the situation where there are 0 positive real zeros
+than there would have to be 2 imaginary real zeros.
+
+[%header,cols="1,1,1,4"]
+|===
+|Pos | Negative | Imaginary | Total
+|2
+|1
+|0
+|3
+
+|0
+|1
+|2
+|3
+|===
+
 == Factoring Trinomials
 === Leading Coeficient Of One
 1. Find two numbers that when multiplied together equal the constant term
@@ -180,3 +233,4 @@ image::Perfect-Square-Trinomial.png[]
 - https://www.cuemath.com/algebra/polynomials/[cuemath polynomials]
 - https://www.cuemath.com/algebra/standard-form-of-quadratic-equation/[quadradic eqautions]
 - https://www.cuemath.com/algebra/zeros-of-polynomial/[zerso of polynomial]
+- https://www.youtube.com/watch?v=YaU5JTe3cPU[OCT Descartes Rules of Signs]
