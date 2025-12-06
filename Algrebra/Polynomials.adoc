@@ -63,6 +63,10 @@ m:: slope
 stem:[x_{1},y_{1}]:: any pont on the line
 
 
+== Zeros of Polynomial (Roots of the equation)
+Values of the variable such that the polynomial equals 0. Often represented as
+stem:[\alpha], stem:[\beta], and y respectively.
+
 == Factoring Trinomials
 === Leading Coeficient Of One
 1. Find two numbers that when multiplied together equal the constant term
@@ -168,11 +172,11 @@ a^2 - 2ab + b^2
 [.center]
 image::Perfect-Square-Trinomial.png[]
 
-
-
 == Links
 - https://www.desmos.com/calculator[Desmos Graphing]
 - https://www.cuemath.com/algebra/perfect-square-trinomial/[perfect square trinomials]
 - https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratic-functions-equations/x2f8bb11595b61c86:vertex-form/v/vertex-form-intro[vertex-form]
 - https://www.youtube.com/watch?v=2MKigAgPZMQ[completing the square]
 - https://www.cuemath.com/algebra/polynomials/[cuemath polynomials]
+- https://www.cuemath.com/algebra/standard-form-of-quadratic-equation/[quadradic eqautions]
+- https://www.cuemath.com/algebra/zeros-of-polynomial/[zerso of polynomial]
