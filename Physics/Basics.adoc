@@ -268,3 +268,4 @@ t=0.869\text{s}\ \text{and}\ t=2.86\text{s}
 
 == Links
 - https://en.wikipedia.org/wiki/Terminal_velocity[Terminal Velocity]
+- https://phys.libretexts.org/Bookshelves/University_Physics
