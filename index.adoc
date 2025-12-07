@@ -11,6 +11,7 @@
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Physics/index.html[Physics]
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Triginometry/index.html[Triginometry]
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Probability/index.html[Probability]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Graphics/index.html[Graphics]
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Algrebra/index.html[Algrebra]
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Digital-Signal-Processing/index.html[Digital-Signal-Processing]
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Geometry/index.html[Geometry]

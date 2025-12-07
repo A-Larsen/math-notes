@@ -1,0 +1,17 @@
+= Graphics | Rasterization
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem:
+:toc: left
+:docinfodir: ..
+
+
+== Interpolation
+NOTE: This is helpful outside of rasterization
+
+image::interpolation.png[]
+
+== Links
+- https://www.youtube.com/watch?v=PahbNFypubE&t=398s[Bisqwit | Texture mapping.. | interpolation]
