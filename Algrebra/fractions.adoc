@@ -7,6 +7,7 @@
 :toc: left
 :docinfodir: ..
 
+== Dividing Fractions
 When dividing two fractions, you can flip the second fraction and solve as if
 they were being multiplied to get your answer
 
@@ -14,3 +15,27 @@ they were being multiplied to get your answer
 ++++
 \frac{1}{2} \div \frac{2}{1} = \frac{1}{2} \times \frac{1}{2} = \frac{1}{4}
 ++++
+
+== Rationalizing the denominator
+Rationalizing is the process of multiplying a surd with another similar surd, to
+result in a rational number. The surd that is used to multiply is called the
+rationalizing factor (RF).
+
+In math, a conjugate refers to a pair of binomials that have the same terms but
+opposite signs between them.
+
+Here we can multiply the top and bottom of the fraction by the conjugate to
+simplify the denomitor
+[stem]
+++++
+\frac{10}{6+\sqrt{5}} * frac{6-\sqrt{5}}{6-\sqrt{5}} =
+\frac{10(6-\sqrt{5})}{(6+\sqrt{5})(6-\sqrt{4})} =
+\frac{10(6-\sqrt{5})}{36-\sqrt{25}} =
+\frac{10(6-\sqrt{5})}{36-5} =
+\frac{10(6-\sqrt{5})}{31}
+++++
+
+=== Links
+* https://www.youtube.com/watch?v=5j8a75aHaSE[The Oganic Chemestry Tutor | Rationalizing the denominator]
+* https://www.cuemath.com/numbers/rationalize-the-denominator/[cue math | rationalizing the denominator]
+* https://www.mathsisfun.com/algebra/conjugate.html[mathisfun | conjugate]
