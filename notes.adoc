@@ -19,3 +19,4 @@ Will show  up correctly
 == Links
 * https://www.overleaf.com/learn/latex/Subscripts_and_superscripts
 * https://math.mit.edu/~djk/calculus_beginners/chapter04/section02.html
+* https://www.youtube.com/watch?v=PahbNFypubE&t=398s[interpolation]
