@@ -1,3 +1,21 @@
+== Issues
+By defaut the stem asciidoctor extension does not support some things. Like
+writing the index of roots.
+
+You can  using latex math you can combat this
+
+----
+:stem: latexmath
+----
+
+Then, things like
+
+----
+\sqrt[5]{25}
+----
+
+Will show  up correctly
+
 == Links
 * https://www.overleaf.com/learn/latex/Subscripts_and_superscripts
 * https://math.mit.edu/~djk/calculus_beginners/chapter04/section02.html

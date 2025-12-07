@@ -1,0 +1,124 @@
+= Algrebra | Exponents
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem: latexmath
+:toc: left
+:docinfodir: ..
+
+== Exponent Rules
+
+=== Product rule
+[stem]
+++++
+a^m \cdot a^n = a^{m+n}
+++++
+
+=== Quotient Rule
+
+[stem]
+++++
+a^m \div a^n = a^{m - n}
+++++
+
+=== Power of a Power Rule
+
+[stem]
+++++
+(a^m)^n = a^{m \cdot n}
+++++
+
+=== Power of a Product Rule
+
+[stem]
+++++
+(ab)^m = b^m \cdot b^m
+++++
+
+=== Power of a Quotient Rule
+
+[stem]
+++++
+(\frac{a}{b})^m = \frac{a^m}{b^m}
+++++
+
+=== Zero Exponent Rule
+
+[stem]
+++++
+a^0 = 1
+++++
+
+=== Negative Exponent Rule
+
+[stem]
+++++
+a^{-m} = \frac{1}{a^m}
+++++
+
+=== Fractional Exponent Rule
+
+[stem]
+++++
+a^{\frac{m}{n}} = \sqrt[n]{a^m}
+++++
+
+== Odd vs Even exponents and negative coefficients
+
+=== Even Exponents
+[stem]
+++++
+(-x)^4
+++++
+
+In this case this has a coefficients of negative one. so it is equavilant to
+
+[stem]
+++++
+x^4
+++++
+
+=== Odd Exponents
+
+[stem]
+++++
+3(-x)^3
+++++
+
+This is equivalant to
+
+[stem]
+++++
+-3x^3
+++++
+
+
+== Multiplying Negative Exponents
+
+=== When the bases are the same
+
+[stem]
+++++
+a^{-n} \cdot a^{-m} = a^{-(n+m)} = 1 \div a^{n+m}
+++++
+
+=== When the bases are different and the negative powers are the same
+
+[stem]
+++++
+a^{-n} \cdot b^{-n} = (a \cdot b)^{-n} = 1 \div (a \cdot b)^n
+++++
+
+=== When the bases and the negative powers are different
+
+[stem]
+++++
+a^{-n} \cdot b^{-m} = (a^{-n}) \cdot (b^{-m})
+++++
+
+=== Exponents of exponents
+
+== Links
+- https://www.cuemath.com/numbers/multiplying-exponents/[cuemath | multiplying exponents]
+- https://www.cuemath.com/algebra/exponent-rules/[cuemeth | exponent rules]
