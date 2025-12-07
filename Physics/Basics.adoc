@@ -269,4 +269,6 @@ t=0.869\text{s}\ \text{and}\ t=2.86\text{s}
 == Links
 - https://en.wikipedia.org/wiki/Terminal_velocity[Terminal Velocity]
 - https://phys.libretexts.org/Bookshelves/University_Physics
-- https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/11%3A__Angular_Momentum/11.02%3A_Rolling_Motion
+----
+https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/11%3A__Angular_Momentum/11.02%3A_Rolling_Motion
+----
