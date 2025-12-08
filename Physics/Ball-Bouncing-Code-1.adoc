@@ -1,0 +1,145 @@
+= Physics | Bouncing Ball Code 1
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem:
+:toc: left
+:docinfodir: ..
+
+NOTE: This was mainly created by chatgpt
+
+from https://github.com/OneLoneCoder/Javidx9/blob/master/ConsoleGameEngine/BiggerProjects/Balls/OneLoneCoder_Balls1.cpp[OneLoneCoder_Balls1.cpp].
+
+The following explains what the nested loops and the collision–resolution math
+are doing.
+
+[source,cpp]
+----
+for (auto &ball : vecBalls)
+{
+    for (auto &target : vecBalls)
+    {
+        if (ball.id != target.id)
+        {
+            if (DoCirclesOverlap(ball.px, ball.py, ball.radius,
+                                 target.px, target.py, target.radius))
+            {
+                vecCollidingPairs.push_back({ &ball, &target });
+
+                float fDistance = sqrtf((ball.px - target.px)*(ball.px - target.px)
+                                      + (ball.py - target.px)*(ball.py - target.py));
+
+                float fOverlap = 0.5f * (fDistance - ball.radius - target.radius);
+
+                ball.px -= fOverlap * (ball.px - target.px) / fDistance;
+                ball.py -= fOverlap * (ball.py - target.py) / fDistance;
+
+                target.px += fOverlap * (ball.px - target.px) / fDistance;
+                target.py += fOverlap * (ball.py - target.py) / fDistance;
+            }
+        }
+    }
+}
+----
+
+== Loop Structure
+
+The code compares every ball with every other ball:
+
+* The outer loop selects the *current* ball.
+* The inner loop compares it to a *target* ball.
+* The condition `ball.id != target.id` ensures a ball is not compared with itself.
+
+== Collision Detection
+
+The function:
+
+[source,c]
+----
+DoCirclesOverlap(x1, y1, r1, x2, y2, r2)
+----
+
+checks whether the distance between centers is less than the sum of radii.
+
+If true, a collision has happened.
+
+The pair is added to:
+
+[source,c]
+----
+vecCollidingPairs
+----
+
+so it can be processed later (for physics, rendering debug markers, etc.).
+
+== Distance Between Centers
+
+[source,c]
+----
+float fDistance = sqrtf((dx * dx) + (dy * dy));
+----
+
+Where:
+
+* dx = ball.px - target.px
+* dy = ball.py - target.py
+
+This gives the center-to-center distance.
+
+== Overlap Amount
+
+[source,c]
+----
+float fOverlap = 0.5f * (fDistance - ball.radius - target.radius);
+----
+
+This computes how much the two circles are penetrating.
+
+The `0.5f` means **each ball moves half of the required distance**, keeping the
+system stable and centered.
+
+== Normalized Direction Vector
+
+The expressions:
+
+[source,c]
+----
+(ball.px - target.px) / fDistance  
+(ball.py - target.py) / fDistance
+----
+
+are effectively the *normalized direction vector* between the two balls.
+
+Normalization ensures the push direction has length 1. Keeping the direction but
+maintaining a distance of zero will be important so we can keep moving by
+fOverlap in the oppropriate directions.
+
+== Resolving the Collision (Separation)
+
+Each ball is moved along the collision normal:
+
+[source,c]
+----
+ball.px -= fOverlap * normalized_dx;
+ball.py -= fOverlap * normalized_dy;
+
+target.px += fOverlap * normalized_dx;
+target.py += fOverlap * normalized_dy;
+----
+
+This pushes the balls apart until they are *exactly touching*, eliminating overlap.
+
+== Summary of Physics Steps
+
+. Detect overlap (circles intersecting).
+. Compute the vector between ball centers.
+. Compute distance and normalize that vector.
+. Compute how much they overlap.
+. Push each ball away from the other along the normalized direction.
+
+This is a standard method of performing *positional correction* in 2D physics
+simulations (similar to what Box2D does).
+
+== Links
+https://www.youtube.com/watch?v=LPzyNOHY3A4&t=165s[Programming Balls #1]
