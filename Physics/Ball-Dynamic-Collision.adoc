@@ -122,7 +122,8 @@ float dpTan1 = b1->vx * tx + b1->vy * ty;
 float dpTan2 = b2->vx * tx + b2->vy * ty;
 ----
 A dot product projects each velocity onto the tangent. Tangential components
-do *not* change in a perfectly elastic collision.
+do *not* change in a perfectly elastic collision. This tells us the velocity in
+direction of the tangent.
 
 == Project Velocities Onto Normal Axis
 
@@ -132,7 +133,8 @@ float dpNorm1 = b1->vx * nx + b1->vy * ny;
 float dpNorm2 = b2->vx * nx + b2->vy * ny;
 ----
 These are the *normal velocity components*. These are the only parts of the
-velocity that change due to collision.
+velocity that change due to collision. This tells us the velocity in the
+direction of the normal axis.
 
 == 1D Conservation of Momentum
 
