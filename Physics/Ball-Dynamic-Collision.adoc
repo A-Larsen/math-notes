@@ -273,11 +273,7 @@ Thus the tangent is orthogonal to the normal.
 * Only the normal component is involved in the collision.
 * Tangent velocity stays the same, representing sliding motion.
 
-If you'd like, I can also explain:
-* how tangent vectors work in 3D,
-* why perpendicular vectors are used,
-* or show a short C program that prints normal/tangent axes.
-
 == Links
 * https://www.youtube.com/watch?v=LPzyNOHY3A4&t=165s[javidx9 | Programming Balls]
-
+* https://www.youtube.com/watch?v=Fp7D5D8Bqjc&t=222s[OCT | Conservation of Momentum Physics Problems]
+* https://www.physicsclassroom.com/class/momentum/Lesson-2/Momentum-Conservation-Principle[Momentum-Conservation-Principle]
