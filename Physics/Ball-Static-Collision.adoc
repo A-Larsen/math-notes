@@ -1,4 +1,4 @@
-= Physics | Bouncing Ball Code 1
+= Physics | Static Collisions
 :docinfo: shared
 :source-highlighter: pygments
 :pygments-style: monokai
@@ -85,7 +85,7 @@ Where:
 * dx = ball.px - target.px
 * dy = ball.py - target.py
 
-This gives the center-to-center distance.
+This gives the center-to-center distance. This is the Pythagorean Theorem.
 
 == Overlap Amount
 

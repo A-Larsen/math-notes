@@ -1,0 +1,290 @@
+= Physics | Dynamic Collisions
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem:
+:toc: left
+:docinfodir: ..
+:wrap: normal
+
+NOTE: This was mainly created by chatgpt
+
+
+The following explains the physics and math inside the collision‐response loop.
+All lines are wrapped to 80 characters.
+
+== Overview
+
+[source,cpp]
+----
+for (auto c : vecCollidingPairs)
+		{
+			sBall *b1 = c.first;
+			sBall *b2 = c.second;
+
+			// Distance between balls
+			float fDistance = sqrtf((b1->px - b2->px)*(b1->px - b2->px) + (b1->py - b2->py)*(b1->py - b2->py));
+
+			// Normal
+			float nx = (b2->px - b1->px) / fDistance;
+			float ny = (b2->py - b1->py) / fDistance;
+
+			// Tangent
+			float tx = -ny;
+			float ty = nx;
+
+			// Dot Product Tangent
+			float dpTan1 = b1->vx * tx + b1->vy * ty;
+			float dpTan2 = b2->vx * tx + b2->vy * ty;
+
+			// Dot Product Normal
+			float dpNorm1 = b1->vx * nx + b1->vy * ny;
+			float dpNorm2 = b2->vx * nx + b2->vy * ny;
+
+			// Conservation of momentum in 1D
+			float m1 = (dpNorm1 * (b1->mass - b2->mass) + 2.0f * b2->mass * dpNorm2) / (b1->mass + b2->mass);
+			float m2 = (dpNorm2 * (b2->mass - b1->mass) + 2.0f * b1->mass * dpNorm1) / (b1->mass + b2->mass);
+
+			// Update ball velocities
+			b1->vx = tx * dpTan1 + nx * m1;
+			b1->vy = ty * dpTan1 + ny * m1;
+			b2->vx = tx * dpTan2 + nx * m2;
+			b2->vy = ty * dpTan2 + ny * m2;
+
+			// Wikipedia Version - Maths is smarter but same
+			//float kx = (b1->vx - b2->vx);
+			//float ky = (b1->vy - b2->vy);
+			//float p = 2.0 * (nx * kx + ny * ky) / (b1->mass + b2->mass);
+			//b1->vx = b1->vx - p * b2->mass * nx;
+			//b1->vy = b1->vy - p * b2->mass * ny;
+			//b2->vx = b2->vx + p * b1->mass * nx;
+			//b2->vy = b2->vy + p * b1->mass * ny;
+		}
+----
+
+This code performs a *realistic elastic collision* between two balls. It does
+this by:
+
+. Computing the normal and tangent vectors between the balls.
+. Projecting each ball's velocity onto these axes.
+. Swapping the normal components using 1D momentum equations.
+. Reconstructing the final 2D velocity vectors.
+
+This method is standard in 2D physics engines.
+
+== Loop and Ball Pointers
+
+[source,cpp]
+----
+for (auto c : vecCollidingPairs)
+{
+    sBall *b1 = c.first;
+    sBall *b2 = c.second;
+----
+Each entry in `vecCollidingPairs` contains pointers to two balls that were
+found to be overlapping. `b1` and `b2` are those balls.
+
+== Distance Between Ball Centers
+
+[source,cpp]
+----
+float fDistance = sqrtf((b1->px - b2->px)*(b1->px - b2->px) +
+                        (b1->py - b2->py)*(b1->py - b2->py));
+----
+This computes the center‐to‐center distance.
+
+== Normal Vector Between Balls
+
+[source,cpp]
+----
+float nx = (b2->px - b1->px) / fDistance;
+float ny = (b2->py - b1->py) / fDistance;
+----
+The *normal vector* points from b1 to b2. Dividing by distance normalizes it
+(makes its length 1). This is the axis along which the collision occurs.
+
+== Tangent Vector
+
+[source,cpp]
+----
+float tx = -ny;
+float ty = nx;
+----
+The tangent vector is perpendicular to the normal. This allows us to separate
+velocity into two independent components: normal and tangent.
+
+== Project Velocities Onto Tangent Axis
+
+[source,cpp]
+----
+float dpTan1 = b1->vx * tx + b1->vy * ty;
+float dpTan2 = b2->vx * tx + b2->vy * ty;
+----
+A dot product projects each velocity onto the tangent. Tangential components
+do *not* change in a perfectly elastic collision.
+
+== Project Velocities Onto Normal Axis
+
+[source,cpp]
+----
+float dpNorm1 = b1->vx * nx + b1->vy * ny;
+float dpNorm2 = b2->vx * nx + b2->vy * ny;
+----
+These are the *normal velocity components*. These are the only parts of the
+velocity that change due to collision.
+
+== 1D Conservation of Momentum
+
+[source,cpp]
+----
+float m1 = (dpNorm1 * (b1->mass - b2->mass) +
+            2.0f * b2->mass * dpNorm2) / (b1->mass + b2->mass);
+
+float m2 = (dpNorm2 * (b2->mass - b1->mass) +
+            2.0f * b1->mass * dpNorm1) / (b1->mass + b2->mass);
+----
+This is the standard equation for a 1D elastic collision. Since the normal
+vector defines the line of impact, we treat the collision as 1D along this
+axis.
+
+The tangent components remain unchanged.
+
+== Rebuild the New Velocity Vectors
+
+[source,cpp]
+----
+b1->vx = tx * dpTan1 + nx * m1;
+b1->vy = ty * dpTan1 + ny * m1;
+
+b2->vx = tx * dpTan2 + nx * m2;
+b2->vy = ty * dpTan2 + ny * m2;
+----
+Each final velocity is:
+
+  (tangent component) + (new normal component)
+
+This gives the correct 2D elastic collision result.
+
+== Wikipedia Version
+
+The commented section uses a compact formula for the same physics. It produces
+the same results but is harder to read.
+
+== Summary
+
+* The normal vector defines the line of impact.
+* Tangent velocity stays the same.
+* Normal velocity is exchanged using elastic‐collision formulas.
+* Final velocity is rebuilt from tangent + new normal contributions.
+
+If you'd like, I can also produce:
+
+* an ASCII diagram showing normal/tangent axes,
+* a version with simplified math,
+* or a stand‐alone C example demonstrating this collision system.
+
+= What Is a Tangent Vector?
+:wrap: normal
+
+A *tangent vector* is a vector that is **perpendicular** to the *normal
+vector* at the point of collision. In circle–circle collision physics, the
+tangent vector represents the direction that is **along the surface**, while
+the normal vector represents the direction **into or out of the surface**.
+
+== Normal vs. Tangent
+
+When two balls collide, you can imagine a line between their centers. This
+line is the **normal** direction.
+
+  normal = direction from ball 1 to ball 2  
+  tangent = direction perpendicular to the normal
+
+The tangent is found simply by rotating the normal 90°:
+
+[source,cpp]
+----
+tx = -ny;
+ty =  nx;
+----
+
+== Why Do We Need a Tangent Vector?
+
+In a perfectly elastic collision:
+
+* Velocity **along the tangent** does **not change**
+* Velocity **along the normal** is the only part that collides
+
+This matches real physics:
+
+* Sliding past each other = no impact.
+* Moving toward each other = impact.
+
+To separate these two behaviors, we split velocity into:
+
+* tangential component
+* normal component
+
+using dot products.
+
+== Visual Diagram (ASCII)
+
+Here is an ASCII visualization.
+
+----
+         (tangent direction)
+                  ↑
+                  |
+        b1 ● ---> | <--- ● b2
+                  |
+                  ↓
+   ---------------------------------------------------
+                         normal axis
+----
+
+Another view:
+
+----
+             tangent
+               ↑
+               |
+   b1 ●--------+--------● b2
+               |
+               ↓
+              normal
+----
+
+== Key Idea
+
+The tangent vector is a direction that represents motion *that does not push
+the balls into each other*. It is used to extract and preserve the
+"sliding" part of the velocity.
+
+== Mathematical Definition
+
+Given a normalized normal vector:
+
+  n = (nx, ny)
+
+A perpendicular tangent vector is:
+
+  t = (-ny, nx)
+
+This is guaranteed to be perpendicular because:
+
+  n · t = nx * (-ny) + ny * nx = 0
+
+Thus the tangent is orthogonal to the normal.
+
+== Summary
+
+* The *normal vector* points directly from one ball to the other.
+* The *tangent vector* is perpendicular to it.
+* Only the normal component is involved in the collision.
+* Tangent velocity stays the same, representing sliding motion.
+
+If you'd like, I can also explain:
+* how tangent vectors work in 3D,
+* why perpendicular vectors are used,
+* or show a short C program that prints normal/tangent axes.
+
