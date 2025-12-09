@@ -288,3 +288,6 @@ If you'd like, I can also explain:
 * why perpendicular vectors are used,
 * or show a short C program that prints normal/tangent axes.
 
+== Links
+* https://www.youtube.com/watch?v=LPzyNOHY3A4&t=165s[javidx9 | Programming Balls]
+
