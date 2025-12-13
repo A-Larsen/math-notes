@@ -21,3 +21,4 @@ Will show  up correctly
 * https://math.mit.edu/~djk/calculus_beginners/chapter04/section02.html
 * https://www.youtube.com/watch?v=PahbNFypubE&t=398s[interpolation]
 * https://en.wikipedia.org/wiki/Summation[Summation]
+* https://youtu.be/I0vDXO5FeaI?si=DpAxgKE7eYFAk2el[Math Symbols]

@@ -10,7 +10,7 @@
 == Topics
 
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Physics/Basics.html[Basics]
-* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Physics/Ball-Dynamic-Collision.html[Ball-Dynamic-Collision]
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Physics/Ball-Static-Collision.html[Ball-Static-Collision]
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Physics/Ball-Dynamic-Collision.html[Ball-Dynamic-Collision]
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Physics/Ball-Bouncing.html[Ball-Bouncing]
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Physics/Collision.html[Collision]
