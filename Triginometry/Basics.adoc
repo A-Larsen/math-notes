@@ -37,6 +37,35 @@ tangent also represents that slope of the radius
 
 image::trig-visualized-tangent.png[tangent]
 
+[source, lua]
+----
+local degrees = 45
+local radii = {2, 4, 5}
+local radians = (degrees * (math.pi/180))
+
+for k, v in ipairs(radii) do
+    print(
+        "radius: " .. 
+         v ..
+         ", " ..
+        "tangent: " .. 
+        (math.sin(radians) * v)/(math.cos(radians) * v)
+    )
+end
+----
+
+.output
+[%collapsible]
+====
+radius: 2, tangent: 1
+radius: 4, tangent: 1
+radius: 5, tangent: 1
+
+====
+
+notice how the tangent is always one when you're at a 45 degree angle. No matter
+what the radius
+
 == Links
 * https://www.youtube.com/watch?v=jt7p-mCC0ng[Evaluating Inverse Functions]
 * https://www.youtube.com/watch?v=dUkCgTOOpQ0[trig visualization]
