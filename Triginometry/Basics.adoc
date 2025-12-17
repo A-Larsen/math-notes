@@ -31,3 +31,4 @@ NOTE: The inverse version of sine, cosine, and tangent have the "arc" prefix
 
 == Links
 * https://www.youtube.com/watch?v=jt7p-mCC0ng[Evaluating Inverse Functions]
+* https://www.youtube.com/watch?v=dUkCgTOOpQ0[trig visualization]
