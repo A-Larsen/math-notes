@@ -41,7 +41,7 @@ this works because we get the tangent with TOA or
 stem:[tan(\theta) = \frac{opposite}{adjacent}].
 We know that at a 45 degree angle stem:[sin(\theta)] and stem:[cos(\theta)] are
 going to be the same value. If they are divided by each other they should equal
-the length of the tangent/radius, which is 1
+the length of the tangent/radius, which is 1. Hence, they have the same ratio.
 
 [source, lua]
 ----
