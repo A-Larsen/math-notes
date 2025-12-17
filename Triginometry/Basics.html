@@ -944,6 +944,10 @@ tangent also represents that slope of the radius</p>
 <img src="trig-visualized-tangent.png" alt="tangent">
 </div>
 </div>
+<div class="paragraph">
+<p>this works because we get the tangent with TOA or
+\$\frac{opposite}{adjacent}\$</p>
+</div>
 <div class="listingblock">
 <div class="content">
 <pre class="pygments highlight"><code data-lang="lua"><span></span><span class="tok-kd">local</span><span class="tok-w"> </span><span class="tok-nv">degrees</span><span class="tok-w"> </span><span class="tok-o">=</span><span class="tok-w"> </span><span class="tok-mi">45</span>
@@ -956,7 +960,7 @@ tangent also represents that slope of the radius</p>
 <span class="tok-w">         </span><span class="tok-nv">v</span><span class="tok-w"> </span><span class="tok-o">..</span>
 <span class="tok-w">         </span><span class="tok-s2">&quot;, &quot;</span><span class="tok-w"> </span><span class="tok-o">..</span>
 <span class="tok-w">        </span><span class="tok-s2">&quot;tangent: &quot;</span><span class="tok-w"> </span><span class="tok-o">..</span>
-<span class="tok-w">        </span><span class="tok-p">(</span><span class="tok-nb">math.sin</span><span class="tok-p">(</span><span class="tok-nv">radians</span><span class="tok-p">)</span><span class="tok-w"> </span><span class="tok-o">*</span><span class="tok-w"> </span><span class="tok-nv">v</span><span class="tok-p">)</span><span class="tok-o">/</span><span class="tok-p">(</span><span class="tok-nb">math.cos</span><span class="tok-p">(</span><span class="tok-nv">radians</span><span class="tok-p">)</span><span class="tok-w"> </span><span class="tok-o">*</span><span class="tok-w"> </span><span class="tok-nv">v</span><span class="tok-p">)</span>
+<span class="tok-w">        </span><span class="tok-nb">math.tan</span><span class="tok-p">(</span><span class="tok-nv">radians</span><span class="tok-p">)</span>
 <span class="tok-w">    </span><span class="tok-p">)</span>
 <span class="tok-kr">end</span></code></pre>
 </div>
@@ -973,7 +977,7 @@ radius: 5, tangent: 1</p>
 </details>
 <div class="paragraph">
 <p>notice how the tangent is always one when you&#8217;re at a 45 degree angle. No matter
-what the radius</p>
+what the radius.</p>
 </div>
 </div>
 </div>
@@ -995,7 +999,7 @@ what the radius</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-12-17 14:50:27 -0500
+Last updated 2025-12-17 14:58:36 -0500
 </div>
 </div>
 <script type="text/x-mathjax-config">
