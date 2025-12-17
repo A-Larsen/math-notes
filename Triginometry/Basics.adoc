@@ -42,19 +42,22 @@ stem:[tan(\theta) = \frac{opposite}{adjacent}]
 
 [source, lua]
 ----
-local degrees = 45
-local radii = {2, 4, 5}
-local radians = (degrees * (math.pi/180))
+local radii = {1, 2, 4, 5}
 
-for k, v in ipairs(radii) do
+function toRadians(degrees)
+    return (degrees * (math.pi/180))
+end
+
+for k, v in pairs(radii) do
     print(
-        "radius: " ..
+        "radius: " .. 
          v ..
          ", " ..
         "tangent: " .. 
-        math.tan(radians)
+        math.tan(toRadians(45)) 
     )
 end
+
 ----
 
 .output
