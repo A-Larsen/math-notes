@@ -29,6 +29,14 @@ NOTE: Make sure calculator is in degrees to get the answer in degrees
 
 NOTE: The inverse version of sine, cosine, and tangent have the "arc" prefix
 
+== Trig Visualized
+https://www.youtube.com/watch?v=dUkCgTOOpQ0[Trig Visualized]
+
+In this video _d_ represents the line that is tangent to the circle. and the
+tangent also represents that slope of the radius
+
+image::trig-visualized-tangent.png[tangent]
+
 == Links
 * https://www.youtube.com/watch?v=jt7p-mCC0ng[Evaluating Inverse Functions]
 * https://www.youtube.com/watch?v=dUkCgTOOpQ0[trig visualization]
