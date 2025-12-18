@@ -9,5 +9,6 @@
 
 == Topics
 
+* https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Geometry/Triangles.html[Triangles]
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Geometry/Circle-Theorems.html[Circle-Theorems]
 * https://raw.githack.com/A-Larsen/math-notes/refs/heads/main/Geometry/Lines.html[Lines]

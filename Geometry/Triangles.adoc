@@ -1,0 +1,14 @@
+= Geometry | Triangles
+:docinfo: shared
+:source-highlighter: pygments
+:pygments-style: monokai
+:icons: font
+:stem:
+:toc: left
+:docinfodir: ..
+
+== Angles
+All of the angles of a triangle equal 180 degrees. This image is a simple proof
+of that.
+
+image::180-degree-triangle-proof.png[]
